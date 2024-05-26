@@ -44,44 +44,62 @@ def convert_rating(rating):
 
 def normalize_course_level(level):
     if level not in ['Beginner', 'Intermediate', 'Advanced']:
-        level = 'Unknown'
+        return 'Unknown'
+    return level
 
 df['Difficulty Level'] = df['Difficulty Level'].apply(normalize_course_level)
 df['Course Rating Level'] = df['Course Rating'].apply(convert_rating)
 
+def escape_prolog_string(text):
+    # Handle None or NaN values
+    if pd.isna(text):
+        return ""
+    return text.replace("'", "\\'").replace(".", "").replace(",", "").replace(";", "").replace(":", "").strip()
+
 def generate_prolog_course(row):
-    escaped_name = re.escape(row['Course Name'])
-    escaped_university = re.escape(row['University'])
-    escaped_description = re.escape(row['Course Description'])
-    escaped_skills = re.escape(row['Skills'])
+    # Escape special characters in course name, university, description, and skills
+    course_name = escape_prolog_string(row['Course Name'])
+    university_name = escape_prolog_string(row['University'])
+    course_description = escape_prolog_string(row['Course Description'])
+    skills = escape_prolog_string(row['Skills'])
 
-    languages_writes = '\n    '.join([f"language('{lang}')," for lang in row['Language']])
-
-    return f"""course('{escaped_name}') :-
-    {languages_writes}
-    name('{escaped_name}'),
-    university('{escaped_university}'),
-    difficultyLevel('{row['Difficulty Level']}'),
-    courseRating('{row['Course Rating Level']}'),
-    course_description('{escaped_description}'),
-    skills('{escaped_skills}')."""
+    # Create a list to store Prolog facts for each language
+    prolog_facts = []
+    for lang in row['Language']:
+        prolog_fact = f"""course('{course_name}', '{lang}', '{university_name}', '{row['Difficulty Level']}', '{row['Course Rating Level']}') :-
+        language('{lang}'),
+        university('{university_name}'),
+        difficultyLevel('{row['Difficulty Level']}'),
+        courseRating('{row['Course Rating Level']}'),
+        courseUrl('{row['Course URL']}'),
+        course_description('{course_description}'),
+        skills('{skills}')."""
+        prolog_facts.append(prolog_fact)
+    
+    return prolog_facts
 
 prolog_courses = df.apply(generate_prolog_course, axis=1)
 
-def generate_prolog_description(row):
-    escaped_name = re.escape(row['Course Name'])
-    escaped_university = re.escape(row['University'])
-    escaped_description = re.escape(row['Course Description'])
-    escaped_skills = re.escape(row['Skills'])
+# Flatten the list of lists
+prolog_courses = [fact for sublist in prolog_courses for fact in sublist]
 
-    return f"""course_description('{escaped_name}') :-
-    write('languages: {row['Language']}') nl,
-    write('name: {escaped_name}'), nl,
-    write('university: {escaped_university}'), nl,
+def generate_prolog_description(row):
+    # Escape special characters in course name, university, description, and skills
+    course_name = escape_prolog_string(row['Course Name'])
+    university_name = escape_prolog_string(row['University'])
+    course_description = escape_prolog_string(row['Course Description'])
+    skills = escape_prolog_string(row['Skills'])
+    languages = ', '.join(row['Language'])
+
+    return f"""course_description('{course_name}') :-
+    write('languages: {languages}'), nl,
+    write('course_name: {course_name}'), nl,
+    write('university: {university_name}'), nl,
     write('difficultyLevel: {row['Difficulty Level']}'), nl,
     write('courseRating: {row['Course Rating Level']}'), nl,
-    write('course_description: {escaped_description}'), nl,
-    write('skills: {escaped_skills}')."""
+    write('courseUrl: {row['Course URL']}'), nl,
+    write('course_description: {course_description}'), nl,
+    write('skills: {skills}'), nl."""
 
 prolog_descriptions = df.apply(generate_prolog_description, axis=1)
 

@@ -11,15 +11,15 @@ main :-
   describe(Language),
   ask_agreement(Language).
 
-recommender(Language) : -
+recommender(Language) :-
   % Expert System 2: Course selection ---------------- %
   reconsult('kb_courses.pl'),nl,
   reconsult('questions_courses.pl'),nl,
   reconsult('answers_courses.pl'),nl,
   reconsult('describe_courses.pl'),nl,
   reconsult('assign_courses.pl'),nl,
-  intro_courses,
-  find_course(Course, Language),
+  ask2()
+  find_course(Course, Language, University, DifficultyLevel, CourseRatingLevel),
   course_description(Course), nl.
 
 intro :-
@@ -31,29 +31,31 @@ intro_courses :-
   write('To answer, input the number shown next to each answer, followed by a dot (.)'), nl, nl.
 
 ask_agreement(Language) :-
-    nl,
-    write('Are you interested in learning '), write(Language), write('? (yes/no)'), nl,
-    read(Answer),
-    process_agreement(Answer, Language).
+  nl,
+  write('Are you interested in learning '), write(Language), write('? (yes/no)'), nl,
+  read(Answer),
+  process_agreement(Answer, Language).
 
 process_agreement(yes, Language) :-
-    write('Great! Let\'s move on to the next step.'),
-    recommender(Language).
+  write('Great! Let\'s move on to the next step.'),ç
+  intro_courses,
+  recommender(Language).
 
 process_agreement(no, Language) :-
-    write('Oh, that\'s unfortunate. Maybe another language?'),
-    reset_answers,
-    main.
+  write('Oh, that\'s unfortunate. Maybe another language?'),
+  reset_answers,
+  main.
 
-process_agreement(_, Language) :-
-    write('Please answer with yes or no.'), nl,
-    ask_agreement(Language).
+process_agreement(Answer, Language) :-
+  \+ member(Answer, [yes, no]), % Check if Answer is not yes or no
+  write('Please answer with yes or no.'), nl,
+  ask_agreement(Language).
 
 find_language(Language) :-
   language(Language), !.
 
-find_course(Course, Language) :-
-  course(Course, Language).
+find_course(Course, Language, University, DifficultyLevel, CourseRatingLevel) :-
+  course(Course, Language, University, DifficultyLevel, CourseRatingLevel).
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Funciones comunes
