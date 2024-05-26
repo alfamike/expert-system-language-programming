@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 
 def extract_unique_universities(csv_file):
     # Leer el archivo CSV
@@ -22,8 +23,7 @@ def sanitize_prolog_atom(value):
     special_chars = [' ', "'", '(', ')', '[', ']', '{', '}', '|', ';', ',', '+', '-', '*', '/', '\\', '&', '^', '%', '$', '#', '@', '!', '~', '`']
 
     # Reemplazar los caracteres especiales por guiones bajos
-    sanitized_value = ''.join(['_' if char in special_chars else char for char in value])
-
+    sanitized_value = ''.join(['_' if char in special_chars else char for char in value]).replace("�", "")
     return sanitized_value
 
 unique_universities_sanitized = []

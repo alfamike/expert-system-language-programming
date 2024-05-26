@@ -22,7 +22,7 @@ recommender(Language) :-
   level(DifficultyLevel),
   university(University),
   rating(CourseRatingLevel),
-  find_course(Course, Language, University, DifficultyLevel, CourseRatingLevel),
+  find_course(Course, Language, DifficultyLevel, University, CourseRatingLevel),
   course_description(Course), nl.
 
 intro :-
@@ -56,8 +56,8 @@ process_agreement(Answer, Language) :-
 find_language(Language) :-
   language(Language), !.
 
-find_course(Course, Language, University, DifficultyLevel, CourseRatingLevel) :-
-  course(Course, Language, University, DifficultyLevel, CourseRatingLevel).
+find_course(Course, Language, DifficultyLevel, University, CourseRatingLevel) :-
+  course(Course, Language, DifficultyLevel, University, CourseRatingLevel).
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Funciones comunes

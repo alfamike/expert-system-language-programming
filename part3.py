@@ -54,19 +54,18 @@ def escape_prolog_string(text):
     # Handle None or NaN values
     if pd.isna(text):
         return ""
-    return text.replace("'", "\\'").replace(".", "").replace(",", "").replace(";", "").replace(":", "").strip()
+    return text.replace("'", "\\'").replace(".", "").replace(",", "").replace(";", "").replace(":", "").replace("�", "").strip()
 
 def generate_prolog_course(row):
     # Escape special characters in course name, university, description, and skills
     course_name = escape_prolog_string(row['Course Name'])
     university_name = escape_prolog_string(row['University'])
-    course_description = escape_prolog_string(row['Course Description'])
     skills = escape_prolog_string(row['Skills'])
 
     # Create a list to store Prolog facts for each language
     prolog_facts = []
     for lang in row['Language']:
-        prolog_fact = f"""course('{course_name}', '{lang}', '{university_name}', '{row['Difficulty Level']}', '{row['Course Rating Level']}') :-
+        prolog_fact = f"""course('{course_name}', '{lang}', '{row['Difficulty Level']}', '{university_name}','{row['Course Rating Level']}') :-
         university('{university_name}'),
         level('{row['Difficulty Level']}'),
         rating('{row['Course Rating Level']}'),
