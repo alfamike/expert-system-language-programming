@@ -8,6 +8,3 @@ question_courses(university) :-
 
 question_courses(rating) :-
   write('Minimum course rating (Low, Medium, High)'), nl.
-
-question_courses(skills) :-
-  write('What skills?'), nl.

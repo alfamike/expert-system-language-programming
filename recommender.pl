@@ -13,12 +13,15 @@ main :-
 
 recommender(Language) :-
   % Expert System 2: Course selection ---------------- %
-  reconsult('kb_courses.pl'),nl,
-  reconsult('questions_courses.pl'),nl,
-  reconsult('answers_courses.pl'),nl,
-  reconsult('describe_courses.pl'),nl,
-  reconsult('assign_courses.pl'),nl,
-  ask2()
+  reconsult('kb_courses.pl'),
+  reconsult('questions_courses.pl'),
+  reconsult('answers_courses.pl'),
+  reconsult('describe_courses.pl'),
+  reconsult('assign_courses.pl'),
+  intro_courses,
+  level(DifficultyLevel),
+  university(University),
+  rating(CourseRatingLevel),
   find_course(Course, Language, University, DifficultyLevel, CourseRatingLevel),
   course_description(Course), nl.
 
@@ -37,8 +40,7 @@ ask_agreement(Language) :-
   process_agreement(Answer, Language).
 
 process_agreement(yes, Language) :-
-  write('Great! Let\'s move on to the next step.'),ç
-  intro_courses,
+  write('Great! Let\'s move on to the next step.'),
   recommender(Language).
 
 process_agreement(no, Language) :-

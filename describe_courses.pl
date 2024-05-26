@@ -8,7 +8,7 @@ course_description('Building Test Automation Framework using Selenium and TestNG
     write('course_description: Selenium is one of the most widely used functional UI automation testing tools and TestNG is a brilliant testing framework  Test automation frameworks are a set of guidelines or rules for writing test cases  They can reduce maintenance costs and testing efforts and will provide a higher return on investment (ROI) for teams looking to optimize their processes  Testing guidelines include coding standards test-data management defining object repositories reporting guidelines and logging strategies  Through hands-on practical experience you will go through concepts writing reusable and structure code which is easy to maintain and understand creating helper classes or utilities write effective testcases and generating reports and logs'), nl,
     write('skills: maintenance  test case  test automation  screenshot  project  helper class  selenium  reusability  debugging  php computer-science software-development'), nl.
 course_description('Programming Languages Part A') :-
-    write('languages: c, ruby'), nl,
+    write('languages: ruby, c'), nl,
     write('course_name: Programming Languages Part A'), nl,
     write('university: University of Washington'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -44,7 +44,7 @@ course_description('Creating Dashboards and Storytelling with Tableau') :-
     write('course_description: Leveraging the visualizations you created in the previous course Visual Analytics with Tableau you will create dashboards that help you identify the story within your data and you will discover how to use Storypoints to create a powerful story to leave a lasting impression with your audience  You will balance the goals of your stakeholders with the needs of your end-users and be able to structure and organize your story for maximum impact Throughout the course you will apply more Advanced functions within Tableau such as hierarchies actions and parameters to guide user interactions  For your final project you will create a compelling narrative to be delivered in a meeting as a static report or in an interactive display online'), nl,
     write('skills: neuroscience  Data Visualization  Storytelling  tableau software  business analytics  checklists  software  method of analytic tableaux  javascript syntax  audience data-science data-analysis'), nl.
 course_description('Parallel programming') :-
-    write('languages: javascript, java, python, ruby, c'), nl,
+    write('languages: python, ruby, java, c, javascript'), nl,
     write('course_name: Parallel programming'), nl,
     write('university: �cole Polytechnique F�d�rale de Lausanne'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -98,7 +98,7 @@ course_description('Python Tricks and Hacks for Productivity') :-
     write('course_description: By the end of this project you are going to be an more complete Python user and will have an better grasp of several techniques and tips which increases coding speed and conciseness This will be useful for anyone who uses Python regularly including data scientists software engineers technicians and hobbyists  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: Computer Programming  Transpose  concision  Python Programming  Software Engineering  grasp  project  Operations Management  progress bar  dict computer-science software-development'), nl.
 course_description('Create an FPS Weapon in Unity (Part 1 - Revolver)') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Create an FPS Weapon in Unity (Part 1 - Revolver)'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -161,7 +161,7 @@ course_description('Build a Table Layout App in Android Studio') :-
     write('course_description: In this course you will build an Android app with a Table Layout in Android Studio with the java programming language and will be given an explanation of table layout  This app will have a piece of text asking the user to select their month of birth from a spinner (a type of drop down menu where the user selects from a set of options) There will be an image (ImageView) next to the spinner which will change to match whichever month the user selects Beneath this the user will be asked to use a special type of  button (ToggleButton) to indicate if they prefer cats or dogs  There will be an image (ImageView) next to the button that will change to match the animal which the user selects Finally the user will be asked to input a number between one and nine in an input box (EditText) Beneath the input box (EditText) will be an image (ImageView) that will change to match the number input by the user or to an image with "Do not use" on it if the user inputs something that is not a numerical digit between one and nine (1 2 3 4 5 6 7 8 9) When the user closes the app the program will remember the choices made by the user in their previous visit You will upload an APK of the app to a website called Appetizeio to test the app  Projects in Series 1 1 Build a Simple App in Android Studio with Java 2 Build a Persistent Storage App in Android Studio 3 Build a Linear Layout App in Android Studio 4 Build a Relative Layout App in Android Studio 5 Build a Table Layout App in Android Studio  Projects in Series 2 1 Build an App in Android Studio using Resources 2 Build an App in Android Studio using Static Files 3 Build an App in Android Studio using Read - Write 4 Build an App in Android Studio using onTouch 5 Build an App in Android Studio using Activities'), nl,
     write('skills: android studio  upload  matching  java (software platform)  Java Programming  Android Development  drop-down list  Software Engineering  text box  Computer Programming computer-science mobile-and-web-development'), nl.
 course_description('Networking and Security in iOS Applications') :-
-    write('languages: objectivec, javascript, c'), nl,
+    write('languages: objectivec, c, javascript'), nl,
     write('course_name: Networking and Security in iOS Applications'), nl,
     write('university: University of California Irvine'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -188,7 +188,7 @@ course_description('Mathematics for Machine Learning Linear Algebra') :-
     write('course_description: In this course on Linear Algebra we look at what linear algebra is and how it relates to vectors and matrices Then we look through what vectors and matrices are and how to work with them including the knotty problem of eigenvalues and eigenvectors and how to use these to solve problems Finally  we look at how to use these to do fun things with datasets - like how to rotate images of faces and how to extract eigenvectors to look at how the Pagerank algorithm works Since we\'re aiming at data-driven applications we\'ll be implementing some of these ideas in code not just on pencil and paper Towards the end of the course you\'ll write code blocks and encounter Jupyter notebooks in Python but don\'t worry these will be quite short focussed on the concepts and will guide you through if you�ve not coded before  At the end of this course you will have an intuitive understanding of vectors and matrices that will help you bridge the gap into linear algebra problems and how to apply these concepts to machine learning'), nl,
     write('skills: Algebra  sigma-algebra  Eigenvalues And Eigenvectors  matrices  linearity  Python Programming  Linear Algebra  pagerank  Vector Projection  transformation matrix data-science machine-learning'), nl.
 course_description('Implementing SOLID Principles in C# with NET Core') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Implementing SOLID Principles in C# with NET Core'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -233,7 +233,7 @@ course_description('Using Python to Interact with the Operating System') :-
     write('course_description: By the end of this course you�ll be able to manipulate files and processes on your computer�s operating system You�ll also have learned about regular expressions -- a very powerful tool for processing text files -- and you�ll get practice using the Linux command line on a virtual machine And this might feel like a stretch right now but you�ll also write a program that processes a bunch of errors in an actual log file and then generates a summary file That�s a super useful skill for IT Specialists to know  We�ll kick off by exploring how to execute Python locally and organize and use code across different Python files We\'ll then learn how to read and write different types of files and use subprocesses and input streams We\'ll also dive into Bash scripting and regular expressions -- both very powerful tools for anyone working with systems We\'ll even touch on automatic testing which allow us to automate how we check if our code is correct To finish we�ll put all this together by using the tools that we�ve acquired to process data and generate automatic reports  We�ll also explain how to set up your own developer environment in your machine This is a key step in being able to write and deploy powerful automation tools'), nl,
     write('skills: unix  file system  unit testing  regular expression  unix shells  Computer Programming  bash (unix shell)  command-line interface  test automation  Python Programming information-technology support-and-operations'), nl.
 course_description('Securing and Integrating Components of your Application') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: Securing and Integrating Components of your Application'), nl,
     write('university: Google Cloud'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -269,7 +269,7 @@ course_description('Data Science in Stratified Healthcare and Precision Medicine
     write('course_description: An increasing volume of data is becoming available in biomedicine and healthcare from genomic data to electronic patient records and data collected by wearable devices Recent advances in data science are transforming the life sciences leading to precision medicine and stratified healthcare   In this course you will learn about some of the different types of data and computational methods involved in stratified healthcare and precision medicine  You will have a hands-on experience of working with such data  And you will learn from leaders in the field about successful case studies   Topics include (i) Sequence Processing (ii) Image Analysis (iii) Network Modelling (iv) Probabilistic Modelling (v) Machine Learning (vi) Natural Language Processing (vii) Process Modelling and (viii) Graph Data  Watch the course promo video here http//edinac/2pn350P'), nl,
     write('skills: medicine  language  Python Programming  Computer Programming  Machine Learning  Human Learning  Natural Language Processing  analysis  natural language  Precision Medicine data-science data-analysis'), nl.
 course_description('Introduction to Programming with MATLAB') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Introduction to Programming with MATLAB'), nl,
     write('university: Vanderbilt University'), nl,
     write('difficultyLevel: Unknown'), nl,
@@ -404,7 +404,7 @@ course_description('Design Patterns') :-
     write('course_description: This course extends object-oriented analysis and design by incorporating design patterns to create interactive applications Through a survey of established design patterns you will gain a foundation for more complex software applications Finally you will identify problematic software designs by referencing a catalog of code smells  You will be challenged in the Capstone Project to redesign an existing Java-based Android application to implement a combination of design patterns You will also critique a given Java codebase for code smells  After completing this course you will be able to  � Demonstrate how to use design patterns to address user interface design issues\t � Identify the most suitable design pattern to address a given application design problem\t � Apply design principles (eg open-closed dependency inversion least knowledge)\t � Critique code by identifying and refactoring anti-patterns � Apply the model-view-controller architectural pattern'), nl,
     write('skills: architectural pattern  code smell  software  code refactoring  design pattern  unified modeling language  software design  chain of responsibility  factory method pattern  software design pattern computer-science software-development'), nl.
 course_description('Create UI in Unity Part 3 - Settings Menu') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Create UI in Unity Part 3 - Settings Menu'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -431,7 +431,7 @@ course_description('Introduction to Accounting Data Analytics and Visualization'
     write('course_description: Accounting has always been about analytical thinking From the earliest days of the profession Luca Pacioli emphasized the importance of math and order for analyzing business transactions The skillset that accountants have needed to perform math and to keep order has evolved from pencil and paper to typewriters and calculators then to spreadsheets and accounting software A new skillset that is becoming more important for nearly every aspect of business is that of big data analytics analyzing large amounts of data to find actionable insights This course is designed to help accounting students develop an analytical mindset and prepare them to use data analytic programming languages like Python and R   We�ve divided the course into three main sections In the first section we bridge accountancy to analytics We identify how tasks in the five major subdomains of accounting (ie financial managerial audit tax and systems) have historically required an analytical mindset and we then explore how those tasks can be  completed more effectively and efficiently by using big data analytics We then present a FACT framework for guiding big data analytics Frame a question Assemble data Calculate the data and Tell others about the results   In the second section of the course we emphasize the importance of assembling data Using financial statement data we explain desirable characteristics of both data and datasets that will lead to effective calculations and visualizations   In the third and largest section of the course we demonstrate and explore how Excel and Tableau can be used to analyze big data We describe visual perception principles and then apply those principles to create effective visualizations We then examine fundamental data analytic tools such as regression linear programming (using Excel Solver) and clustering in the context of point of sale data and loan data We conclude by demonstrating the power of data analytic programming languages to assemble visualize and analyze data We introduce Visual Basic for Applications  as an example of a programming language and the Visual Basic Editor as an example of an integrated development environment (IDE)'), nl,
     write('skills: data clustering algorithms  analytics  tableau software  Microsoft Excel  Data Visualization  microsoft excel vba  Pivot Table  analysis  Data Analysis  software data-science data-analysis'), nl.
 course_description('Introduction to Game Development') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Introduction to Game Development'), nl,
     write('university: Michigan State University'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -485,7 +485,7 @@ course_description('Developing AI Applications on Azure') :-
     write('course_description: This course introduces the concepts of Artificial Intelligence and Machine learning We\'ll discuss machine learning types and tasks and machine learning algorithms You\'ll  explore Python as a popular programming language for machine learning solutions including using some scientific ecosystem packages which will help you implement machine learning   Next this course introduces the machine learning tools available in Microsoft Azure We\'ll review standardized approaches to data analytics and you\'ll receive specific guidance on Microsoft\'s Team Data Science Approach As you go through the course we\'ll introduce you to Microsoft\'s pre-trained and managed machine learning offered as REST API\'s in their suite of cognitive services We\'ll implement solutions using the computer vision API and the facial recognition API and we\'ll do sentiment analysis by calling the natural language service     Using the Azure Machine Learning Service you\'ll create and use an Azure Machine Learning WorksaceThen you\'ll train your own model and you\'ll deploy and test your model in the cloud Throughout the course you will perform hands-on exercises to practice your new AI skills By the end of this course you will be able to create implement and deploy machine learning models'), nl,
     write('skills: Machine Learning  web service  workspace  Training  Computer Programming  Microsoft Azure  Python Programming  Computer Vision  Human Learning  application programming interfaces data-science machine-learning'), nl.
 course_description('Introduction to Python') :-
-    write('languages: java, python, c'), nl,
+    write('languages: c, python, java'), nl,
     write('course_name: Introduction to Python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -521,7 +521,7 @@ course_description('Python Data Structures') :-
     write('course_description: This course will introduce the core data structures of the Python programming language We will move past the basics of procedural programming and explore how we can use the Python built-in data structures such as lists dictionaries and tuples to perform increasingly complex data analysis This course will cover Chapters 6-10 of the textbook �Python for Everybody�  This course covers Python 3'), nl,
     write('skills: dict  Python Programming  python syntax and semantics  Problem Solving  Data Structures  language  Computer Programming  semantics  data type  syntax computer-science software-development'), nl.
 course_description('Data Processing Using Python') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: Data Processing Using Python'), nl,
     write('university: Nanjing University'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -548,7 +548,7 @@ course_description('Serve Scikit-Learn Models for Deployment with BentoML') :-
     write('course_description: This is a hands-on project on serving your scikit-learn models for deployment with BentoML By the time you complete this project you will be able to build logistic regression models for text classification serve scikit-learn models with BentoML\'s REST API model server and containerize model servers with Docker for production deployments   Prerequisites In order to successfully complete this project you should be competent in the Python programming language be familiar with basic machine learning concepts and have built predictive models with scikit-learn  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: project mine  Logistic Regression  modeling  statistical classification  Scikit-Learn  Regression  supply chain  Document Classification  Regression Analysis  project data-science machine-learning'), nl.
 course_description('Use Commands and Create a Remote Git Repository') :-
-    write('languages: php, c, python'), nl,
+    write('languages: c, php, python'), nl,
     write('course_name: Use Commands and Create a Remote Git Repository'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -575,7 +575,7 @@ course_description('Principles of Secure Coding') :-
     write('course_description: This course introduces you to the principles of secure programming It begins by discussing the philosophy and principles of secure programming and then presenting robust programming and the relationship between it and secure programming We\'ll go through a detailed example of writing robust code and we\'ll see many common programming problems and show their connection to writing robust secure programs in general We�ll examine eight design principles that govern secure coding and how to apply them to your own work We�ll discuss how poor design choices drive implementation in coding We�ll differentiate between informal formal and ad hoc coding methods Throughout methods for improving the security and robustness of your programs will be emphasized and you will have an opportunity to practice these concepts through various lab activities A knowledge of the C programming language is helpful but not required to participate in the lab exercises'), nl,
     write('skills: c programming  c++  formal methods  bug bounty program  principle  spring framework  a/rose  defensive programming  penetration test  Computer Programming computer-science computer-security-and-networks'), nl.
 course_description('Building Web Applications in Django') :-
-    write('languages: javascript, php, python, ruby'), nl,
+    write('languages: php, ruby, python, javascript'), nl,
     write('course_name: Building Web Applications in Django'), nl,
     write('university: University of Michigan'), nl,
     write('difficultyLevel: Unknown'), nl,
@@ -647,7 +647,7 @@ course_description('Natural Language Processing with Probabilistic Models') :-
     write('course_description: In Course 2 of the Natural Language Processing Specialization offered by deeplearningai you will a) Create a simple auto-correct algorithm using minimum edit distance and dynamic programming b) Apply the Viterbi Algorithm for part-of-speech (POS) tagging which is important for computational linguistics c) Write a better auto-complete algorithm using an N-gram language model and  d) Write your own Word2Vec model that uses a neural network to compute word embeddings using a continuous bag-of-words model   Please make sure that you�re comfortable programming in Python and have a basic knowledge of machine learning matrix multiplications and conditional probability  By the end of this Specialization you will have designed NLP applications that perform question-answering and sentiment analysis created tools to translate languages and summarize text and even built a chatbot!  This Specialization is designed and taught by two experts in NLP machine learning and deep learning Younes Bensouda Mourri is an Instructor of AI at Stanford University who also helped build the Deep Learning Specialization ?ukasz Kaiser is a Staff Research Scientist at Google Brain and the co-author of Tensorflow the Tensor2Tensor and Trax libraries and the Transformer paper'), nl,
     write('skills: natural language  Part-Of-Speech Tagging  language  Word Embedding  probability  Word2vec  modeling  n-gram  probabilistic models  Natural Language Processing data-science machine-learning'), nl.
 course_description('Getting Started With Application Development') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: Getting Started With Application Development'), nl,
     write('university: Google Cloud'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -845,7 +845,7 @@ course_description('Analyze Text Data with Yellowbrick') :-
     write('course_description: Welcome to this project-based course on Analyzing Text Data with Yellowbrick Tasks such as assessing document similarity topic modelling and other text mining endeavors are predicated on the notion of "closeness" or "similarity" between documents In this course we define various distance metrics (eg Euclidean Hamming Cosine Manhattan etc) and understand their merits and shortcomings as they relate to document similarity We will apply these metrics on documents within a specific corpus and visualize our results By the end of this course you will be able to confidently use visual diagnostic tools from Yellowbrick to steer your machine learning workflow vectorize text data using TF-IDF and cluster documents using embedding techniques and appropriate metrics  This course runs on Coursera\'s hands-on project platform called Rhyme On Rhyme you do projects in a hands-on manner in your browser You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project Everything is already set up directly in your internet browser so you can just focus on learning For this project you�ll get instant access to a cloud desktop with Python Jupyter Yellowbrick and scikit-learn pre-installed  Notes -  You will be able to access the cloud desktop 5 times However you will be able to access instructions videos as many times as you want - This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: text corpus  Data Analysis  Machine Learning  text mining  documents  Topic Model  Data Mining  data clustering algorithms  Python Programming  project data-science machine-learning'), nl.
 course_description('Class Creation in Object Oriented Python') :-
-    write('languages: objectivec, c, python'), nl,
+    write('languages: c, objectivec, python'), nl,
     write('course_name: Class Creation in Object Oriented Python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -962,7 +962,7 @@ course_description('Automating Real-World Tasks with Python') :-
     write('course_description: In the final course we\'ll tie together the concepts that you�ve learned up until now You\'ll tackle real-world scenarios in Qwiklabs that will challenge you to use multiple skills at once  First we\'ll take a closer look at how to use external Python modules to extend your code\'s capabilities and spend some time learning how to use documentation to learn a new module For example we\'ll use the Python Image Library (PIL) to create and modify images We\'ll show you some simple examples of how to perform common tasks in the course material but it will be up to you to explore the module documentation to figure out how to solve specific problems  Next we\'ll show you how to communicate with the world outside of your code! You\'ll use data serialization to turn in-memory objects into messages that can be sent to other programs Your program will send messages across the network to Application Programming Interfaces (APIs) offered by other programs For those times when your code needs to talk to a person instead of a program you\'ll also learn to send email messages  At the end of this course you�ll be able to take a description of a problem and use your skills to create a solution -- just like you would on the job In your final capstone project you\'ll be given a description of what your customer needs and it will be up to you to create a program to do it!'), nl,
     write('skills: test automation  Google Cloud Platform  build automation  Computer Programming  github  software  Cloud Computing  web  portable document format  Python Programming information-technology cloud-computing'), nl.
 course_description('Building Modern Java Applications on AWS') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: Building Modern Java Applications on AWS'), nl,
     write('university: Amazon Web Services'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -980,7 +980,7 @@ course_description('Creating Custom Callbacks in Keras') :-
     write('course_description: In this 15-hour long project-based course you will learn to create a custom callback function in Keras and use the callback during a model training process We will implement the callback function to perform three tasks Write a log file during the training process plot the training metrics in a graph during the training process and reduce the learning rate during the training with each epoch  This course runs on Coursera\'s hands-on project platform called Rhyme On Rhyme you do projects in a hands-on manner in your browser You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project Everything is already set up directly in your Internet browser so you can just focus on learning For this project you�ll get instant access to a cloud desktop with (eg Python Jupyter and Tensorflow) pre-installed  Prerequisites In order to be successful in this project you should be familiar with Python Neural Networks and the Keras framework   Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: callback (computer programming)  Keras  mathematical optimization  Tensorflow  internet  Machine Learning  Python Programming  euler\'s totient function  project  graphs data-science machine-learning'), nl.
 course_description('Create an FPS Weapon in Unity (Part 2 - Firing Effects)') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Create an FPS Weapon in Unity (Part 2 - Firing Effects)'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -1043,7 +1043,7 @@ course_description('Compare time series predictions of COVID-19 deaths') :-
     write('course_description: In this 2-hour long project-based course you will learn how to preprocess time series data visualize time series data and compare the time series predictions of 4 machine learning modelsYou will create time series analysis models in the python programming language to predict the daily deaths due to SARS-CoV-19 or COVID-19 You will create and train the following models SARIMAX Prophet neural networks and XGBOOST You will visualize data using the matplotlib library and extract features from a time series data set perform data splitting and normalization  To successfully complete this project learners should have prior Python programming experience a basic understanding of machine learning and a familiarity of the Pandas library  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: Python Programming  modeling  analysis  project  Time Series  a time  Training  Machine Learning  death  Time Series Analysis data-science machine-learning'), nl.
 course_description('Build a Simple App in Android Studio with Java') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: Build a Simple App in Android Studio with Java'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -1187,7 +1187,7 @@ course_description('RESTful API with HTTP and JavaScript') :-
     write('course_description: In this project you will take advantage of a search engine application interface created by a third party developer and create a useful recipe search engine web page that you can either use on your own computer or host it on the web to show to friends  By the end of the project you will understand the principles of REST API and write code in JavaScript to interface with other systems in web pages'), nl,
     write('skills: representational state transfer  hypertext transfer protocol  json  interfaces  project  web page  Javascript  web  application programming interfaces  web api computer-science software-development'), nl.
 course_description('Parallel Programming in Java') :-
-    write('languages: cpp, java, c'), nl,
+    write('languages: c, cpp, java'), nl,
     write('course_name: Parallel Programming in Java'), nl,
     write('university: Rice University'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -1241,7 +1241,7 @@ course_description('Software Architecture') :-
     write('course_description: The way that software components � subroutines classes functions etc �  are arranged  and the interactions between them is called architecture In this course you will study the ways these architectures are represented both in UML and other visual tools We will introduce the most common architectures their qualities and tradeoffs We will talk about how architectures are evaluated what makes a good architecture and an architecture can be improved We\'ll also talk about how the architecture touches on the process of software development  In the Capstone Project you will document a Java-based Android application with UML diagrams and analyze evaluate the application�s architecture using the Architecture Tradeoff Analysis Method (ATAM)  After completing this course you will be able to  � Compare and contrast the components connections protocols topologies constraints tradeoffs and variations of different types of architectural styles used in the design of applications and systems (eg main program and subroutine object-oriented interpreters pipes and filters database centric event-based)\t � Describe the properties of layered and n-tier architectures\t � Create UML ipackage component and deployment diagrams to express the architectural structure of a system\t � Explain the behaviour of a system using UML activity diagrams\t � Document a multi-application system with a layered architecture'), nl,
     write('skills: architecture tradeoff analysis method  design pattern  software  non-functional requirement  unified modeling language  pipeline (software)  Software Architecture  capgemini  software design  architecture computer-science software-development'), nl.
 course_description('Coding for Designers Managers & Entrepreneurs II') :-
-    write('languages: javascript, java'), nl,
+    write('languages: java, javascript'), nl,
     write('course_name: Coding for Designers Managers & Entrepreneurs II'), nl,
     write('university: University of Virginia'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -1259,7 +1259,7 @@ course_description('Detecting COVID-19 with Chest X-Ray using PyTorch') :-
     write('course_description: In this 2-hour long guided project we will use a ResNet-18 model and train it on a COVID-19 Radiography dataset This dataset has nearly 3000 Chest X-Ray scans which are categorized in three classes - Normal Viral Pneumonia and COVID-19 Our objective in this project is to create an image classification model that can predict Chest X-Ray scans that belong to one of the three classes with a reasonably high accuracy Please note that this dataset and the model that we train in the project can not be used to diagnose COVID-19 or Viral Pneumonia We are only using this data for educational purpose  Before you attempt this project you should be familiar with programming in Python You should also have a theoretical understanding of Convolutional Neural Networks and optimization techniques such as gradient descent This is a hands on practical project that focuses primarily on implementation and not on the theory behind Convolutional Neural Networks  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: project mine  Python Programming  project  Gradient  command-line interface  Deep Learning  Machine Learning  PyTorch  Convolutional Neural Network  Computer Vision data-science machine-learning'), nl.
 course_description('Web Application Technologies and Django') :-
-    write('languages: javascript, python'), nl,
+    write('languages: python, javascript'), nl,
     write('course_name: Web Application Technologies and Django'), nl,
     write('university: University of Michigan'), nl,
     write('difficultyLevel: Unknown'), nl,
@@ -1421,7 +1421,7 @@ course_description('Create Custom Layers in Keras') :-
     write('course_description: In this 1-hour long project-based course you will learn how to create a custom layer in Keras and create a model using the custom layer In this project we will create a simplified version of a Parametric ReLU layer and use it in a neural network model Then we will use the neural network to solve a multi-class classi?cation problem We will also compare our activation layer with the more commonly used ReLU activation layer   This course runs on Coursera\'s hands-on project platform called Rhyme On Rhyme you do projects in a hands-on manner in your browser You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project Everything is already set up directly in your Internet browser so you can just focus on learning For this project you�ll get instant access to a cloud desktop with (eg Python Jupyter and Tensorflow) pre-installed  Prerequisites In order to be successful in this project you should be familiar with python programming neural networks and Keras   Notes -  You will be able to access the cloud desktop 5 times However you will be able to access instructions videos as many times as you want - This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: Artificial Neural Networks  project  internet  Python Programming  Keras  Machine Learning  file shortcut  Network Model  Tensorflow  Rectifier (Neural Networks) data-science machine-learning'), nl.
 course_description('Learn to Teach Java  Writing Classes and Arrays') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Learn to Teach Java  Writing Classes and Arrays'), nl,
     write('university: University of California San Diego'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -1457,7 +1457,7 @@ course_description('Health Concepts in Chinese Medicine') :-
     write('course_description: Course Overview https//youtube/L0-cZt1Hw7c  Chinese Medicine and Modern Medicine are two distinct medical systems yet they both aim at the prevention and treatment of human diseases With this in mind we should understand the practice of Chinese Medicine in the context of Modern Medicine  In this course we explore the basic theories underlying the practice of Chinese Medicine compare and contrast the use of Chinese Medicine and Modern Medicine in Preventive Health and discuss how to restore a healthy condition and understand the pharmacological basis of different types of Chinese tonifying herbs  By the end of this course you will be able to -������������� state the important Chinese Medicine literature from 5th century BC to 16th century AD -������������� describe and interpret basic Chinese Medicine theories  -������������� apply the basic Chinese Medicine theories (such as the balance between Yin and Yang and the interaction among organs) to restore a healthy condition -������������� compare and contrast the use of Chinese Medicine and Modern Medicine in Preventive Health -������������� explain how the balance of Yang/Qi and/or Yin/Blood can be restored by using Chinese tonifying herbs -������������� adapt the Chinese Medicine concepts by reviewing the contemporary researches on pharmacological activities in Chinese tonifying herbs'), nl,
     write('skills: vitamins  herbalism  antioxidant  metabolism  Chinese Medicine  chinese language  blood  immune system  medicine  vitamin life-sciences patient-care'), nl.
 course_description('Create your first test automation script - Selenium and C#') :-
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('course_name: Create your first test automation script - Selenium and C#'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -1502,7 +1502,7 @@ course_description('Modern Robotics Course 5  Robot Manipulation and Wheeled Mob
     write('course_description: Do you want to know how robots work?  Are you interested in robotics as a career?  Are you willing to invest the effort to learn fundamental mathematical modeling techniques that are used in all subfields of robotics?  If so then the "Modern Robotics  Mechanics Planning and Control" specialization may be for you  This specialization consisting of six short courses is serious preparation for serious students who hope to work in the field of robotics or to undertake Advanced study  It is not a sampler  In Course 5 of the specialization Robot Motion Planning and Wheeled Mobile Robots we delve into Advanced topics in robotics  Chapter 12 Grasping and Manipulation of the "Modern Robotics" textbook covers the modeling of kinematics and forces between rigid bodies in contact and applies the modeling to analysis and planning of robot grasping and other manipulation tasks  Chapter 13 Wheeled Mobile Robots covers modeling motion planning and feedback control of omnidirectional and nonholonomic wheeled mobile robots and concludes by addressing control of mobile manipulators consisting of a wheeled mobile base and a robot arm  This course follows the textbook "Modern Robotics  Mechanics Planning and Control" (Lynch and Park Cambridge University Press 2017)  You can purchase the book or use the free preprint pdf  You will build on a library of robotics software in the language of your choice (among Python Mathematica and MATLAB) and use the free cross-platform robot simulator V-REP which allows you to work with state-of-the-art robots in the comfort of your own home and with zero financial investment'), nl,
     write('skills: normal (geometry)  ordered pair  linear span  c process control  convex hull  robotics  optimal control  motion planning  convex set  shortest path problem physical-science-and-engineering mechanical-engineering'), nl.
 course_description('Fundamentals of Network Communication') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Fundamentals of Network Communication'), nl,
     write('university: University of Colorado System'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -1520,7 +1520,7 @@ course_description('Rapid Prototyping of Embedded Interface Designs') :-
     write('course_description: Rapid Prototyping is the second of three classes in the Embedded Interface Design (EID) specialization an online version of the on-campus EID class taught in graduate embedded systems design  This course is focused on rapid prototyping of devices and systems and the related methods practices and principles that will help ensure your embedded interface designs are what your users both need and want  The class includes an introduction to rapid prototyping prototyping device and system user interfaces prototyping devices and design considerations and perspectives for devices  The content ranges from general design best practices to specifics for embedded devices of different types and specific flavors of user interfaces but all are presented to support developing embedded devices  The class includes practical projects that let you try some of standard methods in software development of prototype graphical user interfaces for devices using Qt and HTML  This course can be taken for academic credit as ECEA 5347 part of CU Boulder\'s Master of Science in Electrical Engineering degree'), nl,
     write('skills: java annotation  internet of things  rapid prototyping  user interface design  Computer Programming  voice user interface  signature  interaction design  Operating Systems  Product Development computer-science design-and-product'), nl.
 course_description('Multiplatform Mobile App Development with Web Technologies Ionic and Cordova') :-
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('course_name: Multiplatform Mobile App Development with Web Technologies Ionic and Cordova'), nl,
     write('university: The Hong Kong University of Science and Technology'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -1664,7 +1664,7 @@ course_description('Machine Learning Classification') :-
     write('course_description: Case Studies Analyzing Sentiment & Loan Default Prediction  In our case study on analyzing sentiment you will create models that predict a class (positive/negative sentiment) from input features (text of the reviews user profile information)  In our second case study for this course loan default prediction you will tackle financial data and predict when a loan is likely to be risky or safe for the bank These tasks are an examples of classification one of the most widely used areas of machine learning with a broad array of applications including ad targeting spam detection medical diagnosis and image classification   In this course you will create classifiers that provide state-of-the-art performance on a variety of tasks  You will become familiar with  the most successful techniques which are most widely used in practice including logistic regression decision trees and boosting  In addition you will be able to design and implement the underlying algorithms that can learn these models at scale using stochastic gradient ascent  You will implement these technique on real-world large-scale machine learning tasks  You will also address significant tasks you will face in real-world applications of ML including handling missing data and measuring precision and recall to evaluate a classifier  This course is hands-on action-packed and full of visualizations and illustrations of how these techniques will behave on real data  We\'ve also included optional content in every module covering Advanced topics for those who want to go even deeper!   Learning Objectives By the end of this course you will be able to    -Describe the input and output of a classification model    -Tackle both binary and multiclass classification problems    -Implement a logistic regression model for large-scale classification      -Create a non-linear model using decision trees    -Improve the performance of any model using boosting    -Scale your methods with stochastic gradient ascent    -Describe the underlying decision boundaries      -Build a classification model to predict sentiment in a product review dataset      -Analyze financial data to predict loan defaults    -Use techniques for handling missing data    -Evaluate your models using precision-recall metrics    -Implement these techniques in Python (or in the language of your choice though Python is highly recommended)'), nl,
     write('skills: decision tree  Human Learning  Gradient  classification algorithms  stochastic  Algorithms  Regression  statistical classification  Machine Learning  gradient descent data-science machine-learning'), nl.
 course_description('Git + GitHub for Open Source Collaboration') :-
-    write('languages: java, php, c'), nl,
+    write('languages: c, php, java'), nl,
     write('course_name: Git + GitHub for Open Source Collaboration'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -1754,7 +1754,7 @@ course_description('Perform Real-Time Object Detection with YOLOv3') :-
     write('course_description: In this 1-hour long project-based course you will perform real-time object detection with YOLOv3 a state-of-the-art real-time object detection system Specifically you will detect objects with the YOLO system using pre-trained models on a GPU-enabled workstation To apply YOLO to videos and save the corresponding labelled videos you will build a custom command-line application in Python that employs a pre-trained model to detect localize and classify objects It will use OpenCV to read the video streams draw bounding boxes around detected objects label the objects along with confidence scores and save the labelled videos to disk  This course runs on Coursera\'s hands-on project platform called Rhyme On Rhyme you do projects in a hands-on manner in your browser You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project Everything is already set up directly in your internet browser so you can just focus on learning For this project you�ll get instant access to a cloud desktop with Python Jupyter and Keras pre-installed  Notes -  You will be able to access the cloud desktop 5 times However you will be able to access instructions videos as many times as you want - This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: Computer Vision  digital image processing  object detection  modeling  Workstations  Machine Learning  command-line interface  Natural Language Processing  system u  Python Programming data-science machine-learning'), nl.
 course_description('Competitive Programmer\'s Core Skills') :-
-    write('languages: javascript, java, python, ruby, c'), nl,
+    write('languages: python, ruby, java, c, javascript'), nl,
     write('course_name: Competitive Programmer\'s Core Skills'), nl,
     write('university: Saint Petersburg State University'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -1862,7 +1862,7 @@ course_description('Image Processing with Python') :-
     write('course_description: Image processing has been used to create weird and beautiful modifications to pictures many of us have seen online Older black and white photos can be brought to life using colorization techniques On the other hand color photos can be made to look like old black and white photos In addition to distorting images for entertainment image processing can be used for more serious applications for example to enhance medical imaging to screen patients for cancer or other diseases  In this course you will create a Python application that reads from a list of images modifies their size and appearance and saves the images in another directory  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: global positioning system  opencv  medical imaging  image processing  project  Python Programming  photography  Video Editing  digital image processing  Computer Programming computer-science software-development'), nl.
 course_description('Django Features and Libraries') :-
-    write('languages: javascript, php, python'), nl,
+    write('languages: php, python, javascript'), nl,
     write('course_name: Django Features and Libraries'), nl,
     write('university: University of Michigan'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -1907,7 +1907,7 @@ course_description('Introduction to Programming and Animation with Alice') :-
     write('course_description: This course is an introductory programming course that combines programming with animation using the programming environment Alice You will first learn to tell 3D animated stories by programming Alice?s 3D objects In particular you will learn how to set up a scene to tell a story using storyboarding to move the camera and how to move and rotate objects You will learn programming concepts such as writing your own instructions repetition making decisions and grouping similar objects together  In the second half of the course you will learn how to combine the topics you have learned with event programming to build 3D games you and your friends can play'), nl,
     write('skills: storyboarding  euler\'s totient function  game programming  java desktop system  while loop  exercise  animation software  computer animation  Computer Programming  arrays computer-science software-development'), nl.
 course_description('Engineering Practices for Building Quality Software') :-
-    write('languages: javascript, java, python, c'), nl,
+    write('languages: c, javascript, python, java'), nl,
     write('course_name: Engineering Practices for Building Quality Software'), nl,
     write('university: University of Minnesota'), nl,
     write('difficultyLevel: Unknown'), nl,
@@ -1934,7 +1934,7 @@ course_description('Databases and SQL for Data Science') :-
     write('course_description: Much of the world\'s data resides in databases SQL (or Structured Query Language) is a powerful language which is used for communicating with and extracting data from databases A working knowledge of databases and SQL is a must if you want to become a data scientist  The purpose of this course is to introduce relational database concepts and help you learn and apply foundational knowledge of the SQL language It is also intended to get you started with performing SQL access in a data science environment    The emphasis in this course is on hands-on and practical learning  As such you will work with real databases real data science tools and real-world datasets You will create a database instance in the cloud Through a series of hands-on labs you will practice building and running SQL queries You will also learn how to access databases from Jupyter notebooks using SQL and Python  No prior knowledge of databases SQL Python or programming is required  Anyone can audit this course at no-charge If you choose to take this course and earn the Coursera course certificate you can also earn an IBM digital badge upon successful completion of the course  LIMITED TIME OFFER Subscription is only $39 USD per month for access to graded materials and a certificate'), nl,
     write('skills: Computer Programming  Python Programming  Databases  ipython  SQL  Leadership and Management  ibm db2  Database Connection  Cloud Computing  relational database data-science data-analysis'), nl.
 course_description('Software Security') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Software Security'), nl,
     write('university: University of Maryland College Park'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -1970,7 +1970,7 @@ course_description('Embedded Software and Hardware Architecture') :-
     write('course_description: Embedded Software and Hardware Architecture is a first dive into understanding embedded architectures and writing software to manipulate this hardware You will gain experience writing low-level firmware to directly interface hardware with highly efficient readable and portable design practices We will now transition from the Host Linux Machine where we built and ran code in a simulated environment to an Integrated Development Environment where you will build and install code directly on your ARM Cortex-M4 Microcontroller Course assignments include writing firmware to interact and configure both the underlying ARM architecture and the MSP432 microcontroller platform The course concludes with a project where you will develop a circular buffer data structure   In this course you will need the Texas Instruments LaunchPad with the MSP432 microcontroller in order to complete the assignments Later courses of the Specialization will continue to use this hardware tool to develop even more exciting firmware'), nl,
     write('skills: Microarchitecture  list of arm microarchitectures  microprocessor  Data Structures  interrupt vector table  Computer Architecture  architecture  embedded c  central processing unit  microcontroller physical-science-and-engineering electrical-engineering'), nl.
 course_description('Build a Relative Layout App in Android Studio') :-
-    write('languages: javascript, java'), nl,
+    write('languages: java, javascript'), nl,
     write('course_name: Build a Relative Layout App in Android Studio'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -1979,7 +1979,7 @@ course_description('Build a Relative Layout App in Android Studio') :-
     write('course_description: In this course you will build an Android app with a Relative Layout in Android Studio with the java programming language and will be given an explanation of Relative layout  This app has a piece of text asking the user to "Tell me more about yourself" Beneath this is three pieces of text with input boxes next to them  The pieces of text say Name Date of Birth and Time of birth   While you update the name input just by typing text you will be presented with a date picker dialog and a time picker dialog to assist in inputting the relevant date and time Below these input boxes are two buttons One to submit the information entered and one to exit the app  When you press the submit button the text at the top of the screen will change from "Tell me more about yourself" to " NAME was born on DATE at TIME"  The exit button will close the app and the program will remember the choices made by the user in their previous visit  Projects in Series 1 1 Build a Simple App in Android Studio with Java 2 Build a Persistent Storage App in Android Studio 3 Build a Linear Layout App in Android Studio 4 Build a Relative Layout App in Android Studio 5 Build a Table Layout App in Android Studio  Projects in Series 2 1 Build an App in Android Studio using Resources 2 Build an App in Android Studio using Static Files 3 Build an App in Android Studio using Read - Write 4 Build an App in Android Studio using onTouch 5 Build an App in Android Studio using Activities'), nl,
     write('skills: exit (system call)  Java Programming  display devices  text box  Android Development  user interface  android studio  Computer Programming  Javascript  java (software platform) computer-science mobile-and-web-development'), nl.
 course_description('Learn Javascript with zero prior programming experience') :-
-    write('languages: javascript, java'), nl,
+    write('languages: java, javascript'), nl,
     write('course_name: Learn Javascript with zero prior programming experience'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -2006,7 +2006,7 @@ course_description('Challenging Forensic Science How Science Should Speak to Cou
     write('course_description: The aim of this course is to promote critical thinking with regard to forensic science Today in general most people are dazzled by the technical possibilities offered by forensic science They somewhat live in the illusion that forensic evidence is fool proof and brings factual findings with 100% certainty This course � given by specialists in the field � goes beyond the conventional image that is promoted through TV series such as CSI It alerts (without alarming) the public on the limits of the techniques in order to promote a sound administration of forensic science in the criminal justice system� It allows participants to understand the importance of probabilistic reasoning in forensic science because uncertainty is a constitutive part of forensic science The course is constructed as a series of causes c�l�bres that could or have led to miscarriages of justice Some of these cases have been part of case reviews carried out at the School of Criminal Justice of the University of Lausanne'), nl,
     write('skills: crime  fingerprints  proposition  dna profiling  law  forensics  dnas  speech  forensic science  crime scene social-sciences law'), nl.
 course_description('JavaScript jQuery and JSON') :-
-    write('languages: javascript, php'), nl,
+    write('languages: php, javascript'), nl,
     write('course_name: JavaScript jQuery and JSON'), nl,
     write('university: University of Michigan'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -2312,7 +2312,7 @@ course_description('Development of Real-Time Systems') :-
     write('course_description: This course is intended for the Master\'s student and computer engineer who likes practical programming and problem solving! After completing this course you will have the knowledge to plan and set-up a real-time system both on paper and in practice  The course centers around the problem of achieving timing correctness in embedded systems which means to guarantee that the system reacts within the real-time requirements Examples of such systems include airbags emergency breaks avionics and also multi-media systems like video playback and QoS in web servers  The course teaches how to plan real-time systems in theory using established mathematical proofs and how to implement them in practice by using the most common scheduling methods We also learn and how to program the system in the C language using the FreeRTOS real-time kernel Finally we have a look at the future of real-time systems namely multi-core real-time systems!  This course focus on the learn-by-doing approach with many examples and real-world programming assignments We have 5 modules each with a gentle graded quiz in the end and one peer reviewed programming assignment In case you have no experience with C programming please check you a practical course like https//wwwcourseraorg/learn/arduino-platform  The course is actually quite fun! -Simon Holmbacka / �bo Akademi University  Check out our whole curriculum https//researchitabofi/'), nl,
     write('skills: multi-core processor  context switch  mutual exclusion  freertos  Computer Architecture  Algorithms  real-time operating systems  scheduling (computing)  periodic function  schedule computer-science software-development'), nl.
 course_description('Java Programming Build a Recommendation System') :-
-    write('languages: javascript, java'), nl,
+    write('languages: java, javascript'), nl,
     write('course_name: Java Programming Build a Recommendation System'), nl,
     write('university: Duke University'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -2348,7 +2348,7 @@ course_description('Introduction to Architecting Smart IoT Devices') :-
     write('course_description: What will you learn?  Embedded Systems are so ubiquitous that some of us take them for granted we find them in smartphones GPS systems airplanes and so on But have you ever wondered how these devices actually work? If so you\'re in the right place!   In this course you\'ll learn about the characteristics of embedded systems the possibilities dangers complications and recipes for success We\'ll discuss all of this in the framework of a flourishing embedded systems field the Internet of Things where billions of intercommunicating devices could enable unprecedented innovative products and services If you\'d like to learn how to create similarly innovative products then this is the course for you!  At the end of the course you\'ll be able to - make the right choice for your own project when it comes to the target market parallel executions time and the lifecycle of your system - hack avoid failure and promote success  - decide whether to buy or to build components - how to assemble a good team - install case tools - learn how to work with SysML  This is an introductory course Check out our more Advanced course Architecting Smart IoT Devices soon if you want to go beyond the basics!'), nl,
     write('skills: modeling  purchasing  web  c process control  microprocessor  internet of things  simulink  evaluation  systems modeling language  market (economics) computer-science computer-security-and-networks'), nl.
 course_description('Multiplatform Mobile App Development with React Native') :-
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('course_name: Multiplatform Mobile App Development with React Native'), nl,
     write('university: The Hong Kong University of Science and Technology'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -2501,7 +2501,7 @@ course_description('Databases and SQL for Data Science') :-
     write('course_description: Much of the world\'s data resides in databases SQL (or Structured Query Language) is a powerful language which is used for communicating with and extracting data from databases A working knowledge of databases and SQL is a must if you want to become a data scientist  The purpose of this course is to introduce relational database concepts and help you learn and apply foundational knowledge of the SQL language It is also intended to get you started with performing SQL access in a data science environment    The emphasis in this course is on hands-on and practical learning  As such you will work with real databases real data science tools and real-world datasets You will create a database instance in the cloud Through a series of hands-on labs you will practice building and running SQL queries You will also learn how to access databases from Jupyter notebooks using SQL and Python  No prior knowledge of databases SQL Python or programming is required  Anyone can audit this course at no-charge If you choose to take this course and earn the Coursera course certificate you can also earn an IBM digital badge upon successful completion of the course  LIMITED TIME OFFER Subscription is only $39 USD per month for access to graded materials and a certificate'), nl,
     write('skills: Computer Programming  Python Programming  Databases  ipython  SQL  Leadership and Management  ibm db2  Database Connection  Cloud Computing  relational database data-science data-analysis'), nl.
 course_description('Front-End Web UI Frameworks and Tools Bootstrap 4') :-
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('course_name: Front-End Web UI Frameworks and Tools Bootstrap 4'), nl,
     write('university: The Hong Kong University of Science and Technology'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -2510,7 +2510,7 @@ course_description('Front-End Web UI Frameworks and Tools Bootstrap 4') :-
     write('course_description: This course will give you an overview of client-side web UI frameworks in particular Bootstrap 4 You will learn about grids and responsive design Bootstrap CSS and JavaScript components You will learn about CSS preprocessors Less and Sass You will also learn the basics of Nodejs and NPM and task runners like Grunt and Gulp At the end of this course you will be able to a)Set up design and style a web page using Bootstrap 4 and its components b) Create a responsive web page design and c) Make use of web tools to setup and manage web sites This course also includes an honors track that enables you to work on your own project developing a website using Bootstrap 4 Students enrolling in this course should have prior good working knowledge of HTML CSS and JavaScript'), nl,
     write('skills: less (stylesheet language)  jquery  language  bootstrap (front-end framework)  Javascript  sass (stylesheet language)  web  github  Software As A Service  CSS computer-science mobile-and-web-development'), nl.
 course_description('Front-End Web UI Frameworks and Tools Bootstrap 4') :-
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('course_name: Front-End Web UI Frameworks and Tools Bootstrap 4'), nl,
     write('university: The Hong Kong University of Science and Technology'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -2564,7 +2564,7 @@ course_description('Responsive Web Design') :-
     write('course_description: In this course you will learn how to apply concepts from interaction design and human computer interaction in order to design and build an interactive professional looking website You will learn how to make your web page designs adapt to different screen sizes using responsive grid layouts You will learn how to add navigation and other design elements and you will learn how to separate data and display using JavaScript objects and templates   At the end of the course you will be able to 1 Explain why users need to know where they are where they can go and what is on a web page 2 Create wireframe mockups of web pages  3 Identify the key functional elements of web pages 4 Use Bootstrap components to realise page designs 5 Use JavaScript data structures such as arrays and objects to define the data used in a web page 6 Use the Handlebars template library to convert data to HTML  7 Add interactivity to templates using JavaScript event listeners  In this course you will complete 1 website design assignment taking ~1 hour to complete 1 programming assignment taking ~1 hour to complete 4 quizzes each taking ~20 minutes to complete multiple practice quizzes each taking ~5 minutes to complete  Participation in or completion of this online course will not confer academic credit for University of London programmes'), nl,
     write('skills: User Experience  jquery  html  responsive web design  Web Design  Data Structures  Javascript  javascript templating  CSS  web computer-science mobile-and-web-development'), nl.
 course_description('Build a Guessing Game Application using Java') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Build a Guessing Game Application using Java'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -2600,7 +2600,7 @@ course_description('Building a Dynamic Web App using PHP & MySQL') :-
     write('course_description: In this 1-hour long project-based course you will learn how to create a simple note-taking web app using PHP and MySQL  PHP and MySQL enable developing powerful dynamic web pages and applications They are some of the most widely used technologies in the world right now for developing back-end applications They allow you to create dynamic content on your webpage and bring it to life They also allow to persist data in the backend database and use them in every different way Eventually you will be able to use the concepts you learned to build more complex and powerful web pages and applications using PHP and MySQL This will open huge career opportunities in the field of back end web and mobile development   Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: Databases  web page  html  php  web  web development software  back-end database  mysql  front and back ends  Mobile Development computer-science mobile-and-web-development'), nl.
 course_description('Build Your First React Website') :-
-    write('languages: javascript, php'), nl,
+    write('languages: php, javascript'), nl,
     write('course_name: Build Your First React Website'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -2609,7 +2609,7 @@ course_description('Build Your First React Website') :-
     write('course_description: In this 1-hour long project-based course you will gain hands-on experience with one of the hottest web development framework React If you have some experience with HTML CSS JavaScript and want to start developing with React this course is for you!  By the end of this course You will understand the fundamental of React and be able to create and build a website with React with ease'), nl,
     write('skills: web  euler\'s totient function  Web Development  Databases  recursion  React (web framework)  project  php  Javascript  html computer-science mobile-and-web-development'), nl.
 course_description('Create an FPS Weapon in Unity (Part 3 -Damage Effects)') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Create an FPS Weapon in Unity (Part 3 -Damage Effects)'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -2654,7 +2654,7 @@ course_description('Fashion E-Commerce in XD') :-
     write('course_description: By the end of this project you will understand how to piece together a design into a working prototype to share with stakeholders and clients We will learn how to plan our pages animate optimize our workflows and prepare the designs to properly communicate our design flows'), nl,
     write('skills: mathematical optimization  project mine  english language  high fidelity  php  E-Commerce  Data Analysis  Data Science  User Experience  extract computer-science design-and-product'), nl.
 course_description('Build a Python GUI with Tkinter') :-
-    write('languages: java, python, c'), nl,
+    write('languages: c, python, java'), nl,
     write('course_name: Build a Python GUI with Tkinter'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -2663,7 +2663,7 @@ course_description('Build a Python GUI with Tkinter') :-
     write('course_description: A graphical user interface can be a nice alternative to using the command line for running programs as there is no need to memorize how to execute a command with arguments A label may be added to describe what is needed for the application for example There are many choices for building a graphical user interface in Python Some of them require licensing for commercial use and each have their own sets of learning curves Using Tkinter avoids the licensing issues and is quite simple to use as well It is a GUI package that is the standard GUI toolkit for python applications and is widely available on multiple platforms including Windows Mac and Linux  In this course you will implement a Tkinter GUI to read from a user-provided file containing data  The GUI will allow the user to plot columnar data as X and Y coordinates on a regression graph and display statistics about the data from each of the selected columns  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: Python Programming  event (computing)  c++  graphical model  yottabyte  graphical user interface  interfaces  command-line interface  tkinter  java annotation computer-science software-development'), nl.
 course_description('Machine Learning with H2O Flow') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: Machine Learning with H2O Flow'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -2681,7 +2681,7 @@ course_description('Design Computing 3D Modeling in Rhinoceros with Python/Rhino
     write('course_description: Why should a designer learn to code?  As our world is increasingly impacted by the use of algorithms designers must learn how to use and create design computing programs Designers must go beyond the narrowly focused use of computers in the automation of simple drafting/modeling tasks and instead explore the extraordinary potential digitalization holds for design culture/practice  Structured around a series of fundamental design problems this course will show you Python code in terms of its rules and syntax and what we can do with it in its application and design So by the end of this course you will know the fundamentals of Python and Rhino script but importantly through the lens of their application in geometrically focused design lessons and exercises   Subjects covered in this course - An introduction to Design Computing as a subject and why designers should learn to code  - The fundamentals of coding in the Python scripting language By the end of the course students will be familiar with the basic structure and syntax of this language  - The understanding and application of Rhinoscriptsyntax a native coding language in Rhinoceros that�s imported into Python which allows one to create and control geometries through authoring code  - The application of Procedural Logics - the structuring of coding systems to produce variable geometric form  - The output of geometries in still and animate forms'), nl,
     write('skills: Python Programming  3d modeling  Graphic Design  computer-aided design  3d scanner  3d reconstruction  building information modeling  undefined variable  Machine Learning  spacer gif computer-science design-and-product'), nl.
 course_description('Object-Oriented Programming with Java') :-
-    write('languages: javascript, java'), nl,
+    write('languages: java, javascript'), nl,
     write('course_name: Object-Oriented Programming with Java'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -2708,7 +2708,7 @@ course_description('Biology Meets Programming Bioinformatics for Beginners') :-
     write('course_description: Are you interested in learning how to program (in Python) within a scientific setting?  This course will cover algorithms for solving various biological problems along with a handful of programming challenges helping you implement these algorithms in Python  It offers a gently-paced introduction to our Bioinformatics Specialization (https//wwwcourseraorg/specializations/bioinformatics) preparing learners to take the first course in the Specialization "Finding Hidden Messages in DNA" (https//wwwcourseraorg/learn/dna-analysis)  Each of the four weeks in the course will consist of two required components  First an interactive textbook provides Python programming challenges that arise from real biological problems  If you haven\'t programmed in Python before not to worry! We provide "Just-in-Time" exercises from the Codecademy Python track (https//wwwcodecademycom/learn/python) And each page in our interactive textbook has its own discussion forum where you can interact with other learners Second each week will culminate in a summary quiz  Lecture videos are also provided that accompany the material but these videos are optional'), nl,
     write('skills: genetics  language  Motif Searches  Bioinformatics  biology  molecular biology  bioinformatics algorithms  Computer Programming  Python Programming  Algorithms life-sciences health-informatics'), nl.
 course_description('Managing Security in Google Cloud Platform') :-
-    write('languages: javascript, python'), nl,
+    write('languages: python, javascript'), nl,
     write('course_name: Managing Security in Google Cloud Platform'), nl,
     write('university: Google Cloud'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -2933,7 +2933,7 @@ course_description('Java Arrays and Loops') :-
     write('course_description: In this project you will read weather data from a file and populate an Array with the file data The data is then sorted in an Array and output to another file  Loops are used in a Java program whenever a sequence of code must be repeated A common use for a while loop is to read data from a file where the file is of unknown length A for loop on the other hand is often used when the repeat count of a code sequence is known A common use of a for loop is to iterate through an array An Array is a list of items of a fixed size where each entry is the same type of data The array could contain numbers Strings of characters or a user-defined data type  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: arrays  for loop  ordered pair  data type  while loop  iteration  sorting  project  null coalescing operator  numbers (spreadsheet) computer-science software-development'), nl.
 course_description('Mitigating Security Vulnerabilities on Google Cloud Platform') :-
-    write('languages: javascript, python'), nl,
+    write('languages: python, javascript'), nl,
     write('course_name: Mitigating Security Vulnerabilities on Google Cloud Platform'), nl,
     write('university: Google Cloud'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -2942,7 +2942,7 @@ course_description('Mitigating Security Vulnerabilities on Google Cloud Platform
     write('course_description: This self-paced training course gives participants broad study of security controls and techniques on Google Cloud Platform  Through recorded lectures demonstrations and hands-on labs participants explore and deploy the components of a secure GCP solution including Cloud Identity the GCP Resource Manager Cloud IAM Google Virtual Private Cloud firewalls Google Cloud Load balancing Cloud CDN Cloud Storage access control technologies Stackdriver Security Keys Customer-Supplied Encryption Keys the Google Data Loss Prevention API and Cloud Armor Participants learn mitigations for attacks at many points in a GCP-based infrastructure including Distributed Denial-of-Service attacks phishing attacks and threats involving content classification and use  To get the most out of this course participants should have   * Prior completion of Google Cloud Platform Fundamentals Core Infrastructure or equivalent experience   * Prior completion of GCP and Hybrid Networking Deep Dive or equivalent experience   * Knowledge of foundational concepts in information security such as         * vulnerability threat attack surface          * confidentiality integrity availability         * common threat types and their mitigation strategies         * public-key cryptography         * public and private key pairs         * certificates         * cipher types         * certificate authorities         * Transport Layer Security/Secure Sockets Layer encrypted communication         * public key infrastructures         * security policy   * Basic proficiency with command-line tools and Linux operating system environments   * Systems Operations experience  deploying and managing applications on-premises or in a public cloud environment   * Reading comprehension of code in Python or Javascript  >>> By enrolling in this course you agree to the Qwiklabs Terms of Service as set out in the FAQ and located at https//qwiklabscom/terms_of_service <<<'), nl,
     write('skills: Google Cloud Platform  denial-of-service attacks  vulnerability (computing)  Cloud Computing  Cloud Platforms  Software Security  uniform resource locator  cloud computing security  key (cryptography)  security information-technology cloud-computing'), nl.
 course_description('Practical Introduction to the Command Line') :-
-    write('languages: java, python, c'), nl,
+    write('languages: c, python, java'), nl,
     write('course_name: Practical Introduction to the Command Line'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -2978,7 +2978,7 @@ course_description('Dimensionality Reduction using an Autoencoder in Python') :-
     write('course_description: In this 1-hour long project you will learn how to generate your own high-dimensional dummy dataset You will then learn how to preprocess it effectively before training a baseline PCA model You will learn the theory behind the autoencoder and how to train one in scikit-learn You will also learn how to extract the encoder portion of it to reduce dimensionality of your input data In the course of this project you will also be exposed to some basic clustering strength metrics  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: Scikit-Learn  project  preprocessor  Python Programming  Machine Learning  Artificial Neural Networks  linearity  Autoencoder  variance  Dimensionality Reduction data-science machine-learning'), nl.
 course_description('Creative Programming for Digital Media & Mobile Apps') :-
-    write('languages: javascript, java'), nl,
+    write('languages: java, javascript'), nl,
     write('course_name: Creative Programming for Digital Media & Mobile Apps'), nl,
     write('university: University of London'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -2996,7 +2996,7 @@ course_description('Learn to Program The Fundamentals') :-
     write('course_description: Behind every mouse click and touch-screen tap there is a computer program that makes things happen This course introduces the fundamental building blocks of programming and teaches you how to write fun and useful programs using the Python language'), nl,
     write('skills: basic programming language  language  Computer Programming  computer program  Programming Principles  Problem Solving  python syntax and semantics  syntax  Python Programming  semantics computer-science software-development'), nl.
 course_description('Coding for Designers Managers & Entrepreneurs III') :-
-    write('languages: javascript, java'), nl,
+    write('languages: java, javascript'), nl,
     write('course_name: Coding for Designers Managers & Entrepreneurs III'), nl,
     write('university: University of Virginia'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -3041,7 +3041,7 @@ course_description('Blockchain and Business Applications and Implications') :-
     write('course_description: Blockchain will bring about profound changes to business and even to the nature of business itself  This technology will disrupt how enterprises are funded and managed how they create value and even how they perform basic functions like marketing and accounting  In this course you will learn how blockchain technology will penetrate into the structures of organizations You will explore how blockchain will transform the roles of the C-Suite and how a blockchain can be used to manage and protect intellectual property  You will be able to identify the different layers of the blockchain technology stack and explain how these affect the governance of blockchain systems  As well you will be able to identify seven qualities that a region in the world needs in order to attract technology startups and to build a vibrant blockchain ecosystem'), nl,
     write('skills: intellectual property  leadership  chief executive officer  enabling  Innovation  Collaboration  smart contract  cryptocurrency  BlockChain  Business Modeling business business-essentials'), nl.
 course_description('Java Classes and Objects') :-
-    write('languages: objectivec, java, c'), nl,
+    write('languages: c, objectivec, java'), nl,
     write('course_name: Java Classes and Objects'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -3086,7 +3086,7 @@ course_description('Machine Translation') :-
     write('course_description: Welcome to the CLICS-Machine Translation MOOC  This MOOC explains the basic principles of machine translation Machine translation is the task of translating from one natural language to another natural language Therefore these algorithms can help people communicate in different languages Such algorithms are used in common applications from Google Translate to apps on your mobile device  After taking this course you will be able to understand the main difficulties of translating natural languages and the principles of different machine translation approaches A main focus of the course will be the current state-of-the-art neural machine translation technology which uses deep learning methods to model the translation process You will be able to decide which concepts fit your machine translation application best  This course is taught by Prof Dr Alexander Waibel (http//islanthropomatikkitedu/english/21_74php) and Assistant Professor Dr Jan Niehus (https//wwwmaastrichtuniversitynl/janniehues)'), nl,
     write('skills: machine translation  Artificial Neural Networks  Log-Linear Model  statistical machine translation  language model  neural machine translation  beam search  translation  Natural Language Processing  n-gram data-science machine-learning'), nl.
 course_description('Functional Program Design in Scala') :-
-    write('languages: javascript, java, python, ruby, c'), nl,
+    write('languages: python, ruby, java, c, javascript'), nl,
     write('course_name: Functional Program Design in Scala'), nl,
     write('university: �cole Polytechnique F�d�rale de Lausanne'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -3518,7 +3518,7 @@ course_description('Instructional Design Foundations and Applications') :-
     write('course_description: This course Instructional Design Foundations introduces learners to the conceptual and theoretical foundations of instructional design as well as the analysis aspect of instructional systems design in order to create an innovative instructional solution to performance problems in organizations This particular course also introduces learners to concepts covered in the Instructional Design MasterTrack Certificate Upon successful completion of this course you will be able to ?Describe the major concepts of instructional systems design  ?Describe the major learning and instructional theories ?Describe the process of instructional design and instructional design models ?Describe various analysis activities for instructional design'), nl,
     write('skills: teaching  c++  education  behaviorism  educational psychology  Economics  analysis  climate change  instructional design  training and development social-sciences education'), nl.
 course_description('Programming Languages Part B') :-
-    write('languages: c, ruby'), nl,
+    write('languages: ruby, c'), nl,
     write('course_name: Programming Languages Part B'), nl,
     write('university: University of Washington'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -3554,7 +3554,7 @@ course_description('Algorithmic Thinking (Part 2)') :-
     write('course_description: Experienced Computer Scientists analyze and solve computational problems at a level of abstraction that is beyond that of any particular programming language  This two-part class is designed to train students in the mathematical concepts and process of "Algorithmic Thinking" allowing them to build simpler more efficient solutions to computational problems  In part 2 of this course we will study Advanced algorithmic techniques such as divide-and-conquer and dynamic programming  As the central part of the course students will implement several algorithms in Python that incorporate these techniques and then use these algorithms to analyze two large real-world data sets  The main focus of these tasks is to understand interaction between the algorithms and the structure of the data sets being analyzed by these algorithms  Once students have completed this class they will have both the mathematical and programming skills to analyze design and program solutions to a wide range of computational problems  While this class will use Python as its vehicle of choice to practice Algorithmic Thinking the concepts that you will learn in this class transcend any particular programming language'), nl,
     write('skills: data clustering algorithms  closest pair of points problem  dynamic programming  sequence alignment  Mathematics  davis putnam algorithm  Algorithms  Computer Programming  algorithmics  Python Programming computer-science software-development'), nl.
 course_description('Modern JavaScript ES6 Basics') :-
-    write('languages: javascript, php'), nl,
+    write('languages: php, javascript'), nl,
     write('course_name: Modern JavaScript ES6 Basics'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -3581,7 +3581,7 @@ course_description('Image Classification with CNNs using Keras') :-
     write('course_description: In this 1-hour long project-based course you will learn how to create a Convolutional Neural Network (CNN) in Keras with a TensorFlow backend and you will learn to train CNNs to solve Image Classification problems In this project we will create and train a CNN model on a subset of the popular CIFAR-10 dataset  This course runs on Coursera\'s hands-on project platform called Rhyme On Rhyme you do projects in a hands-on manner in your browser You will get instant access to pre-configured cloud desktops containing all of the software and data you need for the project Everything is already set up directly in your Internet browser so you can just focus on learning For this project you�ll get instant access to a cloud desktop with (eg Python Jupyter and Tensorflow) pre-installed  Prerequisites In order to be successful in this project you should be familiar with python and convolutional neural networks   Notes -  You will be able to access the cloud desktop 5 times However you will be able to access instructions videos as many times as you want - This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: Keras  image processing  Python Programming  Artificial Neural Networks  Deep Learning  statistical classification  front and back ends  Tensorflow  Convolutional Neural Network  Machine Learning data-science machine-learning'), nl.
 course_description('Interfacing with the Raspberry Pi') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: Interfacing with the Raspberry Pi'), nl,
     write('university: University of California Irvine'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -3797,7 +3797,7 @@ course_description('Web Scraping with Python + BeautifulSoup') :-
     write('course_description: By the end of this project you will have a grasp of the essentials for extracting data from most of the websites on the internet This includes the usage of BeautifulSoup for getting elements through patterns Browser DevTools for pattern investigation and Requests for managing the interface with the servers This course will be useful for anyone dealing with extracting web data from pages and APIs in a regular basis  This guided project is for people that would benefit of being able to extract data from the internet through Python This of interest to marketers analysts and data scientists Basic Python is recommended  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: Data Mining  web scraping  augmented assignment  CSS  grasp  Data Science  html  internet  web  Python Programming computer-science software-development'), nl.
 course_description('Process Personal Details using Methods in Java') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Process Personal Details using Methods in Java'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -3878,7 +3878,7 @@ course_description('RPA Lifecycle Deployment and Maintenance') :-
     write('course_description: Robotic Process Automation (or RPA) implementation is conducted over multiple critical phases In the Discovery phase you identify the business processes beneficial for automation In the Design phase you create an RPA plan for automating them In the Development and Testing phase you execute the RPA plan and develop bots testing them thoroughly during development Next you need to deploy the bots and set them up for routine monitoring These activities are performed next in the implementation lifecycle in the Deployment and Maintenance phases You can deploy bots in various devices and also monitor their performance live via the Web Control Room This is a web-based application with comprehensive workload management granular security controls and an intuitive analytics dashboard It is the one central interface from where you can create and manage users and roles monitor connected and disconnected devices and schedule bot execution  As you begin this course you will be introduced to the user interface of the Web Control Room You will explore various panels and components in its Features Panel You will also study some of the best practices and troubleshooting procedures that you can apply while using the Web Control Room during RPA Deployment and Maintenance The learning will be reinforced through concept description hands-on tasks and guided practice'), nl,
     write('skills: java annotation  automation anywhere  user interface  interfaces  maintenance  euler\'s totient function  upload  running  schedule  Leadership and Management computer-science software-development'), nl.
 course_description('VLSI CAD Part II Layout') :-
-    write('languages: java, python, c'), nl,
+    write('languages: c, python, java'), nl,
     write('course_name: VLSI CAD Part II Layout'), nl,
     write('university: University of Illinois at Urbana-Champaign'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -3923,7 +3923,7 @@ course_description('Building AI Applications with Watson APIs') :-
     write('course_description: A learner will be able to write an application that leverages multiple Watson AI services (Discovery Speech to Text Assistant and Text to Speech) By the end of the course they�ll learn best practices of combining Watson services and how they can build interactive information retrieval systems with Discovery + Assistant'), nl,
     write('skills: weak ai  e-nable  Python Programming  application programming interfaces  Cloud Computing  extract  Computer Programming  Average  Machine Learning  enabling data-science machine-learning'), nl.
 course_description('Using JavaScript JQuery and JSON in Django') :-
-    write('languages: javascript, php, python'), nl,
+    write('languages: php, python, javascript'), nl,
     write('course_name: Using JavaScript JQuery and JSON in Django'), nl,
     write('university: University of Michigan'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -4085,7 +4085,7 @@ course_description('Introduction to Trading Machine Learning & GCP') :-
     write('course_description: In this course you�ll learn about the fundamentals of trading including the concept of trend returns stop-loss and volatility You will learn how to identify the profit source and structure of basic quantitative trading strategies This course will help you gauge how well the model generalizes its learning explain the differences between regression and forecasting and identify the steps needed to create development and implementation backtesters By the end of the course you will be able to use Google Cloud Platform to build basic machine learning models in Jupyter Notebooks   To be successful in this course you should have Advanced competency in Python programming and familiarity with pertinent libraries for machine learning such as Scikit-Learn StatsModels and Pandas Experience with SQL is recommended You should have a background in statistics (expected values and standard deviation Gaussian distributions higher moments probability linear regressions) and foundational knowledge of financial markets (equities bonds derivatives market structure hedging)'), nl,
     write('skills: modeling  Cloud Platforms  Google Cloud Platform  trading  Machine Learning  Autoregressive Integrated Moving Average  Strategy  Cloud Computing  trading strategy  Human Learning data-science machine-learning'), nl.
 course_description('Create a User Interface in Unity Part 2 - World-Space Canvas') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Create a User Interface in Unity Part 2 - World-Space Canvas'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -4175,7 +4175,7 @@ course_description('Developing Android Apps with App Inventor') :-
     write('course_description: The course will give students hands-on experience in developing interesting Android applications No previous experience in programming is needed and the course is suitable for students with any level of computing experience MIT App Inventor will be used in the course It is a blocks-based programming tool that allows everyone even novices to start programming and build fully functional apps for Android devices Students are encouraged to use their own Android devices for hands-on testing and exploitation'), nl,
     write('skills: user interface  Android Development  viewer  app inventor for android  Application Development  java annotation  Computer Programming  web  Mobile Development  Google Maps computer-science mobile-and-web-development'), nl.
 course_description('Introduction to Computer Programming') :-
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('course_name: Introduction to Computer Programming'), nl,
     write('university: University of London'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -4193,7 +4193,7 @@ course_description('Become a JavaScript Pro with these 7 Skills') :-
     write('course_description: In this 2-hour long project-based course you will gain hands-on experience with 7 essential JavaScript topics If you have some experience with JavaScript HTML CSS and object-oriented programming and want to elevate your level of competency and be ready to solve real-world problems this course is for you!  By the end of this course you will understand and be able to apply 7 of the most important concepts and skills in JavaScript'), nl,
     write('skills: web application  Web Development  Computer Programming  Mobile Development  nodejs  parameter (computer programming)  web  Javascript  CSS  front and back ends computer-science mobile-and-web-development'), nl.
 course_description('App Deployment Debugging and Performance') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: App Deployment Debugging and Performance'), nl,
     write('university: Google Cloud'), nl,
     write('difficultyLevel: Unknown'), nl,
@@ -4220,7 +4220,7 @@ course_description('AI Workflow Business Priorities and Data Ingestion') :-
     write('course_description: This is the first course of a six part specialization� You are STRONGLY encouraged to complete these courses in order as they are not individual independent courses but part of a workflow where each course builds on the previous ones  This first course in the IBM AI Enterprise Workflow Certification specialization introduces you to the scope of the specialization and prerequisites� Specifically the courses in this specialization are meant for practicing data scientists who are knowledgeable about probability statistics linear algebra and Python tooling for data science and machine learning� A hypothetical streaming media company will be introduced as your new client� You will be introduced to the concept of design thinking IBMs framework for organizing large enterprise AI projects� You will also be introduced to the basics of scientific thinking because the quality that distinguishes a seasoned data scientist from a beginner is creative scientific thinking� Finally you will start your work for the hypothetical media company by understanding the data they have and by building a data ingestion pipeline using Python and Jupyter notebooks � By the end of this course you should be able to 1� Know the advantages of carrying out data science using a structured process 2� Describe how the stages of design thinking correspond to the AI enterprise workflow 3� Discuss several strategies used to prioritize business opportunities 4� Explain where data science and data engineering have the most overlap in the AI workflow 5� Explain the purpose of testing in data ingestion� 6� Describe the use case for sparse matrices as a target destination for data ingestion� 7� Know the initial steps that can be taken towards automation of data ingestion pipelines � Who should take this course? This course targets existing data science practitioners that have expertise building machine learning models who want to deepen their skills on building and deploying AI in large enterprises If you are an aspiring Data Scientist this course is NOT for you as you need real world expertise to benefit from the content of these courses � What skills should you have? It is assumed you have a solid understanding of the following topics prior to starting this course Fundamental understanding of Linear Algebra Understand sampling probability theory and probability distributions Knowledge of descriptive and inferential statistical concepts General understanding of machine learning techniques and best practices Practiced understanding of Python and the packages commonly used in data science NumPy Pandas matplotlib scikit-learn Familiarity with IBM Watson Studio Familiarity with the design thinking process'), nl,
     write('skills: process modeling  ingestion  modeling  ordered pair  General Statistics  process  evaluation  matrices  discipline (academia)  sparse matrices data-science machine-learning'), nl.
 course_description('Create your first Java project using jGRASP') :-
-    write('languages: javascript, java'), nl,
+    write('languages: java, javascript'), nl,
     write('course_name: Create your first Java project using jGRASP'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -4247,7 +4247,7 @@ course_description('Lesson | Get Ready for the Interview') :-
     write('course_description: This lesson is part of a full course Speak English Professionally In Person Online & On the Phone Take this lesson to get a short tutorial on the learning objectives covered To dive deeper into this topic take the full course   By the end of this lesson you will be able to - Practice and prepare yourself for an interview - Examine appropriate body language for interviews'), nl,
     write('skills: online learning community  language  interview  Culture  japanese language  Deep Learning  c++  online interview  Language Learning  english language language-learning learning-english'), nl.
 course_description('System Validation (3) Requirements by modal formulas') :-
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('course_name: System Validation (3) Requirements by modal formulas'), nl,
     write('university: EIT Digital'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -4373,7 +4373,7 @@ course_description('Introduction to Reinforcement Learning in Python') :-
     write('course_description: In this project-based course we will explore Reinforcement Learning in Python Reinforcement Learning or RL for short is different from supervised learning methods in that rather than being given correct examples by humans the AI finds the correct answers for itself through a predefined framework of reward signals  In this course we will discuss theories and concepts that are integral to RL such as the Multi-Arm Bandit problem and its implications and how  Markov Decision processes can be leveraged to find solutions Then we will implement code examples in Python of basic Temporal Difference algorithms and Monte Carlo techniques Finally we implement an example of Q-learning in Python  I would encourage learners to experiment with the tools and methods discussed in this course The learner is highly encouraged to experiment beyond the scope of the course  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: Computer Programming  project  Experiment  Reinforcement Learning  reinforcement  Python Programming  Algorithms  Integral  supervision  Machine Learning data-science machine-learning'), nl.
 course_description('Multiplatform Mobile App Development with NativeScript') :-
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('course_name: Multiplatform Mobile App Development with NativeScript'), nl,
     write('university: The Hong Kong University of Science and Technology'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -4382,7 +4382,7 @@ course_description('Multiplatform Mobile App Development with NativeScript') :-
     write('course_description: This course focuses on developing truly cross-platform native iOS and Android apps using NativeScript (Ver 3x) The framework uses Angular TypeScript or modern JavaScript to get truly native UI and performance while sharing skills and code with the web You will learn about UI development with NativeScript UI and layout support and access the native mobile platform\'s capabilities from Javascript You should have already completed the Bootstrap 4 and the Angular courses in this specialization before proceeding with this course  At the end of this course you will be able to (a) Build mobile applications targeting multiple platforms with a single codebase (b) Leverage your Angular TypeScript and Javascript skills and (c) Use various features of the NativeScript framework to build truly cross-platform mobile applications'), nl,
     write('skills: Angular  mobile app  nodejs  Web Development  Android Development  Javascript  Mobile Development  React (web framework)  web  Application Development computer-science mobile-and-web-development'), nl.
 course_description('Building Modern Python Applications on AWS') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: Building Modern Python Applications on AWS'), nl,
     write('university: Amazon Web Services'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -4526,7 +4526,7 @@ course_description('Combinatorics and Probability') :-
     write('course_description: Counting is one of the basic mathematically related tasks we encounter on a day to day basis The main question here is the following If we need to count something can we do anything better than just counting all objects one by one? Do we need to create a list of all phone numbers to ensure that there are enough phone numbers for everyone? Is there a way to tell that our algorithm will run in a reasonable time before implementing and actually running it? All these questions are addressed by a mathematical field called Combinatorics  In this course we discuss most standard combinatorial settings that can help to answer questions of this type We will especially concentrate on developing the ability to distinguish these settings in real life and algorithmic problems This will help the learner to actually implement new knowledge Apart from that we will discuss recursive technique for counting that is important for algorithmic implementations  One of the main `consumers� of Combinatorics is Probability Theory This area is connected with numerous sides of life on one hand being an important concept in everyday life and on the other hand being an indispensable tool in such modern and important fields as Statistics and Machine Learning In this course we will concentrate on providing the working knowledge of basics of probability and a good intuition in this area The practice shows that such an intuition is not easy to develop  In the end of the course we will create a program that successfully plays a tricky and very counterintuitive dice game  As prerequisites we assume only basic math (eg we expect you to know what is a square or how to add fractions) basic programming in python (functions loops recursion) common sense and curiosity Our intended audience are all people that work or plan to work in IT starting from motivated high school students  Do you have technical problems? Write to us coursera@hseru'), nl,
     write('skills: Python Programming  probability theory  Combinatorics  Computer Programming  Permutations  Random Variable  Combination  probability  numbers (spreadsheet)  randomness computer-science algorithms'), nl.
 course_description('Interfacing with the Arduino') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Interfacing with the Arduino'), nl,
     write('university: University of California Irvine'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -4805,7 +4805,7 @@ course_description('Fundamentals of Parallelism on Intel Architecture') :-
     write('course_description: This course will introduce you to the multiple forms of parallelism found in modern Intel architecture processors and teach you the programming frameworks for handling this parallelism in applications  You will get access to a cluster of modern manycore processors (Intel Xeon Phi architecture) for experiments with graded programming exercises  This course can apply to various HPC and datacenter workloads and framework including artificial intelligence (AI) You will learn how to handle data parallelism with vector instructions task parallelism in shared memory with threads parallelism in distributed memory with message passing and memory architecture parallelism with optimized data containers This knowledge will help you to accelerate computational applications by orders of magnitude all the while keeping your code portable and future-proof  Prerequisite programming in C/C++ or Fortran in the Linux environment and Linux shell proficiency (navigation file copying editing files in text-based editors compilation)'), nl,
     write('skills: Computer Architecture  architecture  simd  parallel computing  unified parallel c  message passing  memory  automatic vectorization  openmp  message computer-science software-development'), nl.
 course_description('Security Best Practices in Google Cloud') :-
-    write('languages: javascript, python'), nl,
+    write('languages: python, javascript'), nl,
     write('course_name: Security Best Practices in Google Cloud'), nl,
     write('university: Google Cloud'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -5030,7 +5030,7 @@ course_description('Machine Learning Rapid Prototyping with IBM Watson Studio') 
     write('course_description: An emerging trend in AI is the availability of technologies in which automation is used to select a best-fit model perform feature engineering and improve model performance via hyperparameter optimization This automation will provide rapid-prototyping of models and allow the Data Scientist to focus their efforts on applying domain knowledge to fine-tune models This course will take the learner through the creation of an end-to-end automated pipeline built by Watson Studio�s AutoAI experiment tool explaining the underlying technology at work as developed by IBM Research The focus will be on working with an auto-generated Python notebook Learners will be provided with test data sets for two use cases  This course is intended for practicing Data Scientists While it showcases the automated AI capabilies of IBM Watson Studio with AutoAI the course does not explain Machine Learning or Data Science concepts   In order to be successful you should have knowledge of  Data Science workflow Data Preprocessing  Feature Engineering  Machine Learning Algorithms  Hyperparameter Optimization Evaluation measures for models  Python and scikit-learn library (including Pipeline class)'), nl,
     write('skills: software prototyping  virtual prototyping  ansys  Model Optimization  Machine Learning  pido  rapid prototyping  evosuite  testbed  manual testing data-science machine-learning'), nl.
 course_description('Getting Started with Go') :-
-    write('languages: java, python, c'), nl,
+    write('languages: c, python, java'), nl,
     write('course_name: Getting Started with Go'), nl,
     write('university: University of California Irvine'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -5156,7 +5156,7 @@ course_description('Introduction to Meteorjs Development') :-
     write('course_description: In this course you will learn how to create a complete multi-user web site using the Meteorjs framework and MongoDB You will implement user authentication security features reactive templates and routing using iron router You will carry out key database operations such as inserting removing and updating data as well as sorting and filtering You will see how a complete application can be built line by line   At the end of the course you will be able to 1 Install the Meteorjs system and create a web application 2 Work with the Meteorjs packaging system 3 Write Meteorjs templates that can reactively display data 4 Use insert remove and update operations on MongoDB 5 Write MongoDB data filters to search for and sort data 6 Add  user authentication functionality to a website 7 Control what is displayed on the page using ironrouter  8 Implement basic security features   In this course you will complete 1 server install assignment taking ~1 hour to complete 1 programming assignment taking ~8 hours to complete 4 quizzes each taking ~20 minutes to complete multiple practice quizzes each taking ~5 minutes to complete  Prerequisites  This course is designed to build on top of the material delivered in the previous two courses in this specialisation Therefore we recommend that if you find this course too technically challenging that you first complete the previous courses before re-commencing this one Specifically we expect you to be able to code basic HTML CSS and Javascript before you take this course   Participation in or completion of this online course will not confer academic credit for University of London programmes'), nl,
     write('skills: event (computing)  meteor  Javascript  routing  responsive web design  authentication  web  mongodb  observer pattern  html computer-science mobile-and-web-development'), nl.
 course_description('Introduction to Java Programming Java Fundamental Concepts') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: Introduction to Java Programming Java Fundamental Concepts'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -5309,7 +5309,7 @@ course_description('Intermediate Pandas Python Library for Data Science') :-
     write('course_description: Note  Pandas is not used for development So you will not build anything during the course of this project   This guided project is for those who are familiar with pandas for data analysis but want to really harness the power of pandas by learning more complex operations  By the end of this project you will learn how to handle structured data using pandas like a pro   Special Features  1) Work with real-world data 2) Detailed variable description booklet provided 3) This project provides plenty of challenges with solutions to encourage you to practice using pandas 4) Libraries are automatically imported and the dataset is automatically split into subsets each time you begin a new session Just open the project and start learning!  5) The real-world applications of each function are explained 6) Best practices and tips are provided to ensure that you learn how to use pandas efficiently 7) Animated gifs are used to aid in the learning process  8) Important terminology and definitions are explained  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: Pandas  Python Programming  Missing Data  Applied Machine Learning  Machine Learning  FinTech  concatenation  Data Science  Numpy  Deep Learning data-science data-analysis'), nl.
 course_description('Internet of Things Setting Up Your DragonBoard� Development Platform') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Internet of Things Setting Up Your DragonBoard� Development Platform'), nl,
     write('university: University of California San Diego'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -5327,7 +5327,7 @@ course_description('Physics of silicon solar cells') :-
     write('course_description: The first MOOC �Photovoltaic solar energy� is a general presentation of the solar photovoltaics technologies in the global energetic context without extensive details In particular the description of the solar cell operation is restricted to the ideal case  In contrast this second MOOC allows a deep understanding of the properties of solar cells based on crystalline semiconductors It consists in a general presentation of the physics of the photovoltaics devices with a particular emphasize on the silicon technology that currently represents more than 90% share of the market Photovoltaic applications of III-V semiconductors are also mentioned  Indeed from a fundamental point of view a solar cell can be considered as a semiconductor device (a diode) exposed to the sunlight An introduction to the semiconductor physics is given followed by the electron transport phenomena in a diode device A detailed description of the solar cell operation is then provided including the conversion efficiency limitations A description of the solar spectrum and the optical properties of the cells are also presented Finally the crystalline silicon technology is described from the bulk crystalline growth up to the preparation of heterojunctions combining crystalline and amorphous materials'), nl,
     write('skills: lambda calculus  Solar Energy  packaging  astronomy  physics  Nanotechnology  java annotation  properties  silicon  materials physical-science-and-engineering physics-and-astronomy'), nl.
 course_description('Java Primitive Types to Calculate Expenses') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Java Primitive Types to Calculate Expenses'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -5534,7 +5534,7 @@ course_description('3D Interactions and Navigation') :-
     write('course_description: Welcome to 3D Interactions and Navigation the third course in the Unity Certified Programmer Specialization from Unity Technologies  This course will help you prepare for the Unity Certified Programmer exam the professional certification for entry to mid-level Unity programmers Unity is used to create real-time 3D applications for many industries including video games automotive film training and more In this course you will be challenged to solve realistic Unity programming problems that are aligned to topics covered on the exam   In the third course you will start development on a new 3D application Stealth In this application a 3D stealth-style game the user guides a 3D character through a maze-like environment filled with hazards in an attempt to avoid detection In implementing this application you will review and practice many of the skills covered in the exam including setting up navigation meshes and agents working with 3D character animation scripting camera movement and more  This is an intermediate course intended for people who are ready for their first paying roles as Unity programmers or enthusiasts who would like to verify their skills against a professional standard To succeed you should have at least 1-2 years of experience programming interactive applications in Unity You should be proficient at programming in the C# language and familiar with Unity\'s scripting APIs You should have experience in the full product development lifecycle from concept to launch (and beyond) And you should understand multi-platform development including deploying applications to XR (AR and VR) platforms'), nl,
     write('skills: recursively enumerable set  entry point  video game development  virtual camera system  rendering (computer graphics)  computer animation  augmented reality  navigation mesh  head-up display  reusability computer-science software-development'), nl.
 course_description('Kotlin for Java Developers') :-
-    write('languages: javascript, java'), nl,
+    write('languages: java, javascript'), nl,
     write('course_name: Kotlin for Java Developers'), nl,
     write('university: JetBrains'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -5543,7 +5543,7 @@ course_description('Kotlin for Java Developers') :-
     write('course_description: The Kotlin programming language is a modern language that gives you more power for your everyday tasks Kotlin is concise safe pragmatic and focused on interoperability with Java code It can be used almost everywhere Java is used today for server-side development Android apps and much more Kotlin is 100% compatible with all existing Java frameworks and has good tooling support It�s a pragmatic language with a very low learning curve and can be quickly grasped by Java developers Kotlin code might be compiled not only to JVM bytecode but to JavaScript and Native code as well but this course is focused on Kotlin/JVM  This course aims to share with you the power and the beauty of Kotlin We\'ll have a basic overview of the language as well as a discussion of many corner cases especially concerning Java interoperability The course is based on your Java experience it shows the similarities between the two languages and focuses on what\'s going to be different  Note that this course won\'t cover the programming fundamentals We\'ll discuss basic syntax nullability functional programming with Kotlin object-oriented programming with Kotlin the power of the Kotlin standard library and Java interoperability'), nl,
     write('skills: jakobson\'s functions of language  standard library  kotlin (programming language)  interoperability  Computer Programming  euler\'s totient function  inline function  functional programming  java (software platform)  language computer-science software-development'), nl.
 course_description('VLSI CAD Part I Logic') :-
-    write('languages: java, python, c'), nl,
+    write('languages: c, python, java'), nl,
     write('course_name: VLSI CAD Part I Logic'), nl,
     write('university: University of Illinois at Urbana-Champaign'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -5597,7 +5597,7 @@ course_description('Implementing Hangman Game Using Basics of Python 3') :-
     write('course_description: In this 1-hour long project-based course you will learn how to get input from the user and then display it in a separate line and use different data types to store the variables in them You will also be able to use the if conditions to let the program make decisions whether the player guessed a correct character or not and keeping track that the number of turns is not zero In addition you will be able to implement the definite type of loops that will be used to continue the game By the end of the project you will get to know and implement recursive function that will help having a more user friendly game  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: usability  recursive function  Computer Programming  web service  video game development  recursion  project  Machine Learning  Python Programming  euler\'s totient function computer-science software-development'), nl.
 course_description('Introduction to JavaScript') :-
-    write('languages: javascript, php'), nl,
+    write('languages: php, javascript'), nl,
     write('course_name: Introduction to JavaScript'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -5642,7 +5642,7 @@ course_description('Foundations of Data Science K-Means Clustering in Python') :
     write('course_description: Organisations all around the world are using data to predict behaviours and extract valuable real-world insights to inform decisions Managing and analysing big data has become an essential part of modern finance retail marketing social science development and research medicine and government  This MOOC designed by an academic team from Goldsmiths University of London will quickly introduce you to the core concepts of Data Science to prepare you for intermediate and Advanced Data Science courses It focuses on the basic mathematics statistics and programming skills that are necessary for typical data analysis tasks   You will consider these fundamental concepts on an example data clustering task and you will use this example to learn basic programming skills that are necessary for mastering Data Science techniques During the course you will be asked to do a series of mathematical and programming exercises and a small data clustering project for a given dataset'), nl,
     write('skills: unsupervised learning  data clustering algorithms  Computer Programming  ipython  Machine Learning  k-means clustering  graphs  Numpy  cluster analysis  Python Programming data-science machine-learning'), nl.
 course_description('Functional Programming Principles in Scala') :-
-    write('languages: javascript, java, python, ruby, c'), nl,
+    write('languages: python, ruby, java, c, javascript'), nl,
     write('course_name: Functional Programming Principles in Scala'), nl,
     write('university: �cole Polytechnique F�d�rale de Lausanne'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -5687,7 +5687,7 @@ course_description('Usable Security') :-
     write('course_description: This course focuses on how to design and build secure systems with a human-centric focus We will look at basic principles of human-computer interaction and apply these insights to the design of secure systems with the goal of developing security measures that respect human performance and their goals within a system'), nl,
     write('skills: Human Computer Interaction  privacy  java annotation  user interface  Security Design  usability testing  usability  authentication  security  password computer-science computer-security-and-networks'), nl.
 course_description('Web Application Development Basic Concepts') :-
-    write('languages: javascript, ruby'), nl,
+    write('languages: ruby, javascript'), nl,
     write('course_name: Web Application Development Basic Concepts'), nl,
     write('university: University of New Mexico'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -5804,7 +5804,7 @@ course_description('iOS App Development Basics') :-
     write('course_description: iOS App Development Basics the second course in the iOS App Development with Swift specialization expands your programming skills and applies them to authentic app development projects The topics covered in this course include Xcode basics Core iOS and Cocoa Touch frameworks simple user interface creation MVC Architecture and much more  With a focus on using Apple�s components to access sensors like camera microphone and GPS by the end of this course you will be able to create a basic App according to specified parameters and guidelines  Currently this course is taught using Swift 2 The team is aware of the release of Swift 3 and will be making edits to the course in time Please be aware that at this time the instruction is entirely with Swift 2'), nl,
     write('skills: interfaces  Mobile Development  java annotation  xcode  interface builder  user interface  application programming interfaces  iOS Development  Application Design  Swift Programming computer-science mobile-and-web-development'), nl.
 course_description('Big Data Analysis with Scala and Spark') :-
-    write('languages: javascript, java, python, ruby, c'), nl,
+    write('languages: python, ruby, java, c, javascript'), nl,
     write('course_name: Big Data Analysis with Scala and Spark'), nl,
     write('university: �cole Polytechnique F�d�rale de Lausanne'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -5831,7 +5831,7 @@ course_description('TensorFlow Serving with Docker for Model Deployment') :-
     write('course_description: This is a hands-on guided project on deploying deep learning models using TensorFlow Serving with Docker In this 15 hour long project you will train and export TensorFlow models for text classification learn how to deploy models with TF Serving and Docker in 90 seconds and build simple gRPC and REST-based clients in Python for model inference  With the worldwide adoption of machine learning and AI by organizations it is becoming increasingly important for data scientists and machine learning engineers to know how to deploy models to production While DevOps groups are fantastic at scaling applications they are not the experts in ML ecosystems such as TensorFlow and PyTorch This guided project gives learners a solid real-world foundation of pushing your TensorFlow models from development to production in no time!  Prerequisites In order to successfully complete this project you should be familiar with Python and have prior experience with building models with Keras or TensorFlow  Note This course works best for learners who are based in the North America region We�re currently working on providing the same experience in other regions'), nl,
     write('skills: PyTorch  Machine Learning  inference  Python Programming  statistical classification  modeling  Deep Learning  euler\'s totient function  Tensorflow  representational state transfer data-science machine-learning'), nl.
 course_description('Create Python Linux Script to Generate a Disk Usage Report') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: Create Python Linux Script to Generate a Disk Usage Report'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -5975,7 +5975,7 @@ course_description('Fundamentals of Machine Learning in Finance') :-
     write('course_description: The course aims at helping students to be able to solve practical ML-amenable problems that they may encounter in real life that include (1) understanding where the problem one faces lands on a general landscape of available ML methods (2) understanding which particular ML approach(es) would be most appropriate for resolving the problem and (3) ability to successfully implement a solution and assess its performance   A learner with some or no previous knowledge of Machine Learning (ML)  will get to know main algorithms of Supervised and Unsupervised Learning and Reinforcement Learning and will be able to use ML open source Python packages to design test and implement ML algorithms in Finance Fundamentals of Machine Learning in Finance will provide more at-depth view of supervised unsupervised and reinforcement learning and end up in a project on using unsupervised learning for implementing a simple portfolio trading strategy  The course is designed for three categories of students Practitioners working at financial institutions such as banks asset management firms or hedge funds Individuals interested in applications of ML for personal day trading Current full-time students pursuing a degree in Finance Statistics Computer Science Mathematics Physics Engineering or other related disciplines who want to learn about practical applications of ML in Finance    Experience with Python (including numpy pandas and IPython/Jupyter notebooks) linear algebra basic probability theory and basic calculus is necessary to complete assignments in this course'), nl,
     write('skills: mathematical finance  optimal control  Machine Learning  Reinforcement Learning  Estimation  Risk  t-Distributed Stochastic Neighbor Embedding  latent variable  stock  Finance data-science machine-learning'), nl.
 course_description('Python Dynamic HTML Web Server') :-
-    write('languages: php, java, python, c'), nl,
+    write('languages: c, php, python, java'), nl,
     write('course_name: Python Dynamic HTML Web Server'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -6020,7 +6020,7 @@ course_description('Computer Science Programming with a Purpose') :-
     write('course_description: The basis for education in the last millennium was �reading writing and arithmetic� now it is reading writing and computing Learning to program is an essential part of the education of every student not just in the sciences and engineering but in the arts social sciences and humanities as well Beyond direct applications it is the first step in understanding the nature of computer science�s undeniable impact on the modern world  This course covers the first half of our book Computer Science An Interdisciplinary Approach (the second half is covered in our Coursera course Computer Science Algorithms Theory and Machines) Our intent is to teach programming to those who need or want to learn it in a scientific context   We begin by introducing basic programming elements such as variables conditionals loops arrays and I/O Next we turn to functions introducing key concepts such as recursion modular programming and code reuse Then we present a modern introduction to object-oriented programming  We use the Java programming language and teach basic skills for computational problem solving that are applicable in many modern computing environments Proficiency in Java is a goal but we focus on fundamental concepts in programming not Java per se  All the features of this course are available for free It does not offer a certificate upon completion'), nl,
     write('skills: Java Programming  openfabrics alliance  virtual terminal  instance variable  Computer Programming  recursion  java (software platform)  modular programming  crt0  abstract data type computer-science software-development'), nl.
 course_description('Starting GUI Programming with JavaFX') :-
-    write('languages: java, python'), nl,
+    write('languages: python, java'), nl,
     write('course_name: Starting GUI Programming with JavaFX'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -6038,7 +6038,7 @@ course_description('TensorFlow for CNNs Learn and Practice CNNs') :-
     write('course_description: This guided project course is part of the "Tensorflow for Convolutional Neural Networks" series and this series presents material that builds on the second course of DeepLearningAI TensorFlow Developer Professional Certificate which will help learners reinforce their skills and build more projects with Tensorflow  In this 2-hour long project-based course you will learn the fundamentals of CNNs structure components and how they work and you will learn practically how to solve an image classification deep learning task in the real world and create train and test a neural network with Tensorflow using real-world images and you will get a bonus deep learning exercise implemented with Tensorflow By the end of this project you will have learned the fundamentals of convolutional neural networks and created a deep learning model with TensorFlow on a real-world dataset  This class is for learners who want to learn how to work with convolutional neural networks and use Python for building convolutional neural networks with TensorFlow and for learners who are currently taking a basic deep learning course or have already finished a deep learning course and are searching for a practical deep learning project with TensorFlow project Also this project provides learners with further knowledge about creating and training convolutional neural networks and improves their skills in Tensorflow which helps them in fulfilling their career goals by adding this project to their portfolios'), nl,
     write('skills: Tensorflow  Convolutional Neural Network  world file  exercise  series a round  project  Artificial Neural Networks  Deep Learning  statistical classification  modeling data-science machine-learning'), nl.
 course_description('Distributed Programming in Java') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Distributed Programming in Java'), nl,
     write('university: Rice University'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -6065,7 +6065,7 @@ course_description('Modern Robotics Course 2  Robot Kinematics') :-
     write('course_description: Do you want to know how robots work?  Are you interested in robotics as a career?  Are you willing to invest the effort to learn fundamental mathematical modeling techniques that are used in all subfields of robotics?  If so then the "Modern Robotics  Mechanics Planning and Control" specialization may be for you  This specialization consisting of six short courses is serious preparation for serious students who hope to work in the field of robotics or to undertake Advanced study  It is not a sampler  In Course 2 of the specialization Robot Kinematics you will learn to solve the forward kinematics (calculating the configuration of the "hand" of the robot based on the joint values) using the product-of-exponentials formula  Your efforts in Course 1 pay off handsomely as forward kinematics is a breeze with the tools you\'ve learned  This is followed by velocity kinematics and statics relating joint velocities and forces/torques to end-effector twists and wrenches inverse kinematics (calculating joint values that achieve a desired "hand" configuration) and kinematics of robots with closed chains  This course follows the textbook "Modern Robotics  Mechanics Planning and Control" (Lynch and Park Cambridge University Press 2017)  You can purchase the book or use the free preprint pdf  You will build on a library of robotics software in the language of your choice (among Python Mathematica and MATLAB) and use the free cross-platform robot simulator V-REP which allows you to work with state-of-the-art robots in the comfort of your own home and with zero financial investment'), nl,
     write('skills: robotics  linear equation  forward kinematics  least squares  torque  Framing  numerical analysis  calibration  inverse kinematics  measurement physical-science-and-engineering mechanical-engineering'), nl.
 course_description('Build a Firebase Android Application (Part II)') :-
-    write('languages: java, c'), nl,
+    write('languages: c, java'), nl,
     write('course_name: Build a Firebase Android Application (Part II)'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -6074,7 +6074,7 @@ course_description('Build a Firebase Android Application (Part II)') :-
     write('course_description: This 15 hours project-bases course is a continuation of the class Build a Firebase Android Application (Part I) In this class you will learn about Google Firebase user authentication and how to use security rules to enforce data integrity and control user access  This class requires basic to intermediate to advance experience in Android application development in Java and basic Firebase development as prerequisites  A free Google and a free Appetizeio accounts are also required to participate in this class'), nl,
     write('skills: security  Data Structures  cloud computing security  Android Development  Application Development  c dynamic memory allocation  login  data integrity  continuations  authentication information-technology cloud-computing'), nl.
 course_description('Ruby on Rails An Introduction') :-
-    write('languages: java, ruby, c'), nl,
+    write('languages: c, ruby, java'), nl,
     write('course_name: Ruby on Rails An Introduction'), nl,
     write('university: Johns Hopkins University'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -6110,7 +6110,7 @@ course_description('Simulation and modeling of natural processes') :-
     write('course_description: This course gives you an introduction to modeling methods and simulation tools for a wide range of natural phenomena The different methodologies that will be presented here can be applied to very wide range of topics such as fluid motion stellar dynamics population evolution  This course does not intend to go deeply into any numerical method or process and does not provide any recipe for the resolution of a particular problem It is rather a basic guideline towards different methodologies that can be applied to solve any kind of problem and help you pick the one best suited for you  The assignments of this course will be made as practical as possible in order to allow you to actually create from scratch short programs that will solve simple problems Although programming will be used extensively in this course we do not require any Advanced programming experience in order to complete it'), nl,
     write('skills: modeling  numerical analysis  agent-based model  cellular automata  modeling and simulation  computational fluid dynamics  Python Programming  queueing theory  simulation  process physical-science-and-engineering research-methods'), nl.
 course_description('Web Design Wireframes to Prototypes') :-
-    write('languages: javascript, java'), nl,
+    write('languages: java, javascript'), nl,
     write('course_name: Web Design Wireframes to Prototypes'), nl,
     write('university: California Institute of the Arts'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -6200,7 +6200,7 @@ course_description('Computers Waves Simulations A Practical Introduction to Nume
     write('course_description: Interested in learning how to solve partial differential equations with numerical methods and how to turn them into python codes? This course provides you with a basic introduction how to apply methods like the finite-difference method the pseudospectral method the linear and spectral element method to the 1D (or 2D) scalar wave equation The mathematical derivation of the computational algorithm is accompanied by python codes embedded in Jupyter notebooks In a unique setup you can see how the mathematical equations are transformed to a computer code and the results visualized The emphasis is on illustrating the fundamental mathematical ingredients of the various numerical methods (eg Taylor series Fourier series differentiation function interpolation numerical integration) and how they compare You will be provided with strategies how to ensure your solutions are correct for example benchmarking with analytical solutions or convergence tests The mathematical aspects are complemented by a basic introduction to wave physics discretization meshes parallel programming computing models   The course targets anyone who aims at developing or using numerical methods applied to partial differential equations and is seeking a practical introduction at a basic level The methodologies discussed are widely used in natural sciences  engineering as well as economics and other fields'), nl,
     write('skills: finite differences  Partial Differential Equations  Python Programming  spectral element method  simulation  Differential Equations  numerical analysis  analysis  Computer Programming  acoustics physical-science-and-engineering research-methods'), nl.
 course_description('Blazor and JavaScript Interoperability') :-
-    write('languages: javascript, java'), nl,
+    write('languages: java, javascript'), nl,
     write('course_name: Blazor and JavaScript Interoperability'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Advanced'), nl,
@@ -6236,7 +6236,7 @@ course_description('Mastering Programming with MATLAB') :-
     write('course_description: The course builds on the foundation laid by the first course of the Specialization called �Introduction to Programming with MATLAB� It covers more Advanced programming concepts such as recursion vectorization function handles algorithm efficiency and others At the same time it presents many features that make MATLAB a powerful programming environment for engineering and scientific computing such as  its support for object oriented programming the new user interface design environment and Live Scripts  By the end of this course you will be familiar with more Advanced computer programming concepts able to write more efficient code and able to create object oriented MATLAB applications with graphical user interfaces'), nl,
     write('skills: object-oriented programming  modulo operation  ternary conditional operator  Electrical Engineering  Matlab  c++  Mechanical Engineering  null coalescing operator  autocad  Computer Programming computer-science software-development'), nl.
 course_description('Data Structures') :-
-    write('languages: java, python, c'), nl,
+    write('languages: c, python, java'), nl,
     write('course_name: Data Structures'), nl,
     write('university: University of California San Diego'), nl,
     write('difficultyLevel: Intermediate'), nl,
@@ -6245,7 +6245,7 @@ course_description('Data Structures') :-
     write('course_description: A good algorithm usually comes together with a set of good data structures that allow the algorithm to manipulate the data efficiently In this course we consider the common data structures that are used in various computational problems You will learn how these data structures are implemented in different programming languages and will practice implementing them in our programming assignments This will help you to understand what is going on inside a particular built-in implementation of a data structure and what to expect from it You will also learn typical use cases for these data structures  A few examples of questions that we are going to cover in this class are the following 1 What is a good strategy of resizing a dynamic array? 2 How priority queues are implemented in C++ Java and Python? 3 How to implement a hash table so that the amortized running time of all operations is O(1) on average? 4 What are good strategies to keep a binary tree balanced?   You will also learn how services like Dropbox manage to upload some large files instantly and to save a lot of storage space!'), nl,
     write('skills: binary search algorithm  binary search tree  binary tree  stack (abstract data type)  hashing  Data Structures  priority queue  hash table  search tree  splay tree computer-science algorithms'), nl.
 course_description('Intermediate Object-Oriented Programming with Java') :-
-    write('languages: javascript, java, c'), nl,
+    write('languages: c, java, javascript'), nl,
     write('course_name: Intermediate Object-Oriented Programming with Java'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: Beginner'), nl,
@@ -6452,7 +6452,7 @@ course_description('Modern Robotics Course 1  Foundations of Robot Motion') :-
     write('course_description: Do you want to know how robots work?  Are you interested in robotics as a career?  Are you willing to invest the effort to learn fundamental mathematical modeling techniques that are used in all subfields of robotics?  If so then the "Modern Robotics  Mechanics Planning and Control" specialization may be for you  This specialization consisting of six short courses is serious preparation for serious students who hope to work in the field of robotics or to undertake Advanced study  It is not a sampler  In Course 1 of the specialization Foundations of Robot Motion you will learn fundamental material regarding robot configurations for both serial robot mechanisms and robots with closed chains  You will learn about configuration space (C-space) degrees of freedom C-space topology implicit and explicit representations of configurations and holonomic and nonholonomic constraints  You will also learn how to represent spatial velocities and forces as twists and wrenches  This material is at the core of the study of anything that moves (eg robots)  This course follows the textbook "Modern Robotics  Mechanics Planning and Control" (Lynch and Park Cambridge University Press 2017)  You can purchase the book or use the free preprint pdf  You will build on a library of robotics software in the language of your choice (among Python Mathematica and MATLAB) and use the free cross-platform robot simulator V-REP which allows you to work with state-of-the-art robots in the comfort of your own home and with zero financial investment'), nl,
     write('skills: motion planning  linearity  matrices  matrix representation  robotics  Algebra  simulation  Matlab  Linear Algebra  transformation matrix physical-science-and-engineering mechanical-engineering'), nl.
 course_description('Programming Languages Part C') :-
-    write('languages: c, ruby'), nl,
+    write('languages: ruby, c'), nl,
     write('course_name: Programming Languages Part C'), nl,
     write('university: University of Washington'), nl,
     write('difficultyLevel: Advanced'), nl,
