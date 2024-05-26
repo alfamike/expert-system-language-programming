@@ -1,26 +1,26 @@
 % Answers for the knowledge base
 
 % First question
-answer(beginner) :-
+answer_courses(beginner) :-
   write('Beginner').
 
-answer(intermediate) :-
+answer_courses(intermediate) :-
   write('Intermediate').
 
-answer(advanced) :-
+answer_courses(advanced) :-
   write('Advanced').
 
 % Second question
 
 
 % Third question
-answer(low) :-
+answer_courses(low) :-
   write('Low').
 
-answer(medium) :-
+answer_courses(medium) :-
   write('Medium').
 
-answer(high) :-
+answer_courses(high) :-
   write('High').
 
 % Fourth question

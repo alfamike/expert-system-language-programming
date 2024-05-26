@@ -1,13 +1,13 @@
 % Questions for the knowledge base
 
-question(level) :-
+question_courses(level) :-
   write('What level do you have? (Beginner,Intermediate,Advanced)'), nl.
 
-question(university) :-
+question_courses(university) :-
   write('What University do you prefer?'), nl.
 
-question(rating) :-
+question_courses(rating) :-
   write('Minimum course rating (Low, Medium, High)'), nl.
 
-question(skills) :-
+question_courses(skills) :-
   write('What skills?'), nl.

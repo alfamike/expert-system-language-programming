@@ -11,7 +11,7 @@ main :-
   describe(Language),
   ask_agreement(Language).
 
-recommender : -
+recommender(Language) : -
   % Expert System 2: Course selection ---------------- %
   reconsult('kb_courses.pl'),nl,
   reconsult('questions_courses.pl'),nl,
@@ -19,8 +19,6 @@ recommender : -
   reconsult('describe_courses.pl'),nl,
   reconsult('assign_courses.pl'),nl,
   intro_courses,
-  % Course selection process
-  reset_answers,
   find_course(Course, Language),
   course_description(Course), nl.
 
@@ -38,9 +36,9 @@ ask_agreement(Language) :-
     read(Answer),
     process_agreement(Answer, Language).
 
-process_agreement(yes, _Language) :-
+process_agreement(yes, Language) :-
     write('Great! Let\'s move on to the next step.'),
-    recommender.
+    recommender(Language).
 
 process_agreement(no, Language) :-
     write('Oh, that\'s unfortunate. Maybe another language?'),
@@ -54,6 +52,12 @@ process_agreement(_, Language) :-
 find_language(Language) :-
   language(Language), !.
 
+find_course(Course, Language) :-
+  course(Course, Language).
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Funciones comunes
+
 % Store user answers to be able to track his progress
 :- dynamic(progress/2).
 
@@ -65,10 +69,6 @@ reset_answers :-
   fail.
 reset_answers.
 
-
-find_course(Course, Language) :-
-  course(Course, Language).
-
 % [First|Rest] is the Choices list, Index is the index of First in Choices
 answers([], _).
 answers([First|Rest], Index) :-
@@ -76,6 +76,12 @@ answers([First|Rest], Index) :-
   NextIndex is Index + 1,
   answers(Rest, NextIndex).
 
+% [First|Rest] is the Choices list, Index is the index of First in Choices
+answer_courses([], _).
+answer_courses([First|Rest], Index) :-
+  write(Index), write(' '), answer_courses(First), nl,
+  NextIndex is Index + 1,
+  answer_courses(Rest, NextIndex).
 
 % Parses an Index and returns a Response representing the "Indexth" element in
 % Choices (the [First|Rest] list)
@@ -94,3 +100,14 @@ ask(Question, Answer, Choices) :-
   parse(Index, Choices, Response),
   asserta(progress(Question, Response)),
   Response = Answer.
+
+% Asks the Question to the user and saves the Answer
+ask2(Question, Answer, Choices) :-
+  question_courses(Question),
+  answer_courses(Choices, 0),
+  read(Index),
+  parse(Index, Choices, Response),
+  asserta(progress(Question, Response)),
+  Response = Answer.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
