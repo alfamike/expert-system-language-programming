@@ -66,9 +66,6 @@ def generate_prolog_course(row):
     prolog_facts = []
     for lang in row['Language']:
         prolog_fact = f"""course('{course_name}', '{lang}', '{row['Difficulty Level']}', '{university_name}','{row['Course Rating Level']}') :-
-        university('{university_name}'),
-        level('{row['Difficulty Level']}'),
-        rating('{row['Course Rating Level']}'),
         skills('{skills}')."""
         prolog_facts.append(prolog_fact)
     

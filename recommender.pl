@@ -19,9 +19,9 @@ recommender(Language) :-
   reconsult('describe_courses.pl'),
   reconsult('assign_courses.pl'),
   intro_courses,
-  level(DifficultyLevel),
-  university(University),
-  rating(CourseRatingLevel),
+  level(DifficultyLevel), nl,
+  university(University), nl,
+  rating(CourseRatingLevel), nl,
   find_course(Course, Language, DifficultyLevel, University, CourseRatingLevel),
   course_description(Course), nl.
 
@@ -73,27 +73,13 @@ reset_answers :-
   fail.
 reset_answers.
 
-% [First|Rest] is the Choices list, Index is the index of First in Choices
-answers([], _).
-answers([First|Rest], Index) :-
-  write(Index), write(' '), answer(First), nl,
-  NextIndex is Index + 1,
-  answers(Rest, NextIndex).
-
-% [First|Rest] is the Choices list, Index is the index of First in Choices
-answer_courses([], _).
-answer_courses([First|Rest], Index) :-
-  write(Index), write(' '), answer_courses(First), nl,
-  NextIndex is Index + 1,
-  answer_courses(Rest, NextIndex).
-
 % Parses an Index and returns a Response representing the "Indexth" element in
 % Choices (the [First|Rest] list)
 parse(0, [First|_], First).
-parse(Index, [First|Rest], Response) :-
+parse(Index, [First|Rest], Answer) :-
   Index > 0,
   NextIndex is Index - 1,
-  parse(NextIndex, Rest, Response).
+  parse(NextIndex, Rest, Answer).
 
 
 % Asks the Question to the user and saves the Answer
@@ -101,17 +87,29 @@ ask(Question, Answer, Choices) :-
   question(Question),
   answers(Choices, 0),
   read(Index),
-  parse(Index, Choices, Response),
-  asserta(progress(Question, Response)),
-  Response = Answer.
+  parse(Index, Choices, Answer),
+  asserta(progress(Question, Answer)).
+
+% [First|Rest] is the Choices list, Index is the index of First in Choices
+answers([], _).
+answers([First|Rest], Index) :-
+  write(Index), write(' '), answer(First), nl,
+  NextIndex is Index + 1,
+  answers(Rest, NextIndex).
 
 % Asks the Question to the user and saves the Answer
 ask2(Question, Answer, Choices) :-
   question_courses(Question),
   answer_courses(Choices, 0),
   read(Index),
-  parse(Index, Choices, Response),
-  asserta(progress(Question, Response)),
-  Response = Answer.
+  parse(Index, Choices, Answer),
+  asserta(progress(Question, Answer)).
+
+% [First|Rest] is the Choices list, Index is the index of First in Choices
+answer_courses([], _).
+answer_courses([First|Rest], Index) :-
+  write(Index), write('. '), answer_courses(First), nl,
+  NextIndex is Index + 1,
+  answer_courses(Rest, NextIndex).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

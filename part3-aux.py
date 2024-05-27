@@ -20,7 +20,7 @@ def sanitize_prolog_atom(value):
     Si el valor contiene caracteres especiales, se reemplazan por guiones bajos.
     """
     # Lista de caracteres especiales a reemplazar
-    special_chars = [' ', "'", '(', ')', '[', ']', '{', '}', '|', ';', ',', '+', '-', '*', '/', '\\', '&', '^', '%', '$', '#', '@', '!', '~', '`']
+    special_chars = [' ', "'", '(', ')', '[', ']', '{', '}', '|', ';', ',', '+', '-', '*', '/', '\\', '&', '^', '%', '$', '#', '@', '!', '~', '`','.']
 
     # Reemplazar los caracteres especiales por guiones bajos
     sanitized_value = ''.join(['_' if char in special_chars else char for char in value]).replace("�", "")
@@ -32,9 +32,9 @@ def write_prolog_file(values, prolog_file):
     with open(prolog_file, 'a', encoding='utf-8') as file:
         for value in values:
             sanitized_value = sanitize_prolog_atom(value)
-            file.write(f"answer_courses({sanitized_value}) :-\n")
+            file.write(f"answer_courses({sanitized_value.lower()}) :-\n")
             file.write(f"    write('{sanitized_value}').\n\n")
-            unique_universities_sanitized.append(sanitized_value)
+            unique_universities_sanitized.append(sanitized_value.lower())
 
 # Archivo CSV
 csv_file = '../Coursera.csv'
