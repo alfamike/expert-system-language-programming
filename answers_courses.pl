@@ -1,6 +1,5 @@
 % Answers for the knowledge base
 
-% First question
 answer_courses(beginner) :-
   write('Beginner').
 
@@ -10,7 +9,6 @@ answer_courses(intermediate) :-
 answer_courses(advanced) :-
   write('Advanced').
 
-% Third question
 answer_courses(low) :-
   write('Low').
 
