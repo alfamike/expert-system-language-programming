@@ -45,7 +45,7 @@ course_description('Creating Dashboards and Storytelling with Tableau') :-
     write('skills: neuroscience  Data Visualization  Storytelling  tableau software  business analytics  checklists  software  method of analytic tableaux  javascript syntax  audience data-science data-analysis'), nl.
 course_description('Parallel programming') :-
     write('course_name: Parallel programming'), nl,
-    write('languages: java, python, c, ruby, javascript'), nl,
+    write('languages: python, java, ruby, c, javascript'), nl,
     write('university: cole Polytechnique Fdrale de Lausanne'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -162,7 +162,7 @@ course_description('Build a Table Layout App in Android Studio') :-
     write('skills: android studio  upload  matching  java (software platform)  Java Programming  Android Development  drop-down list  Software Engineering  text box  Computer Programming computer-science mobile-and-web-development'), nl.
 course_description('Networking and Security in iOS Applications') :-
     write('course_name: Networking and Security in iOS Applications'), nl,
-    write('languages: javascript, objectivec, c'), nl,
+    write('languages: objectivec, c, javascript'), nl,
     write('university: University of California Irvine'), nl,
     write('difficultyLevel: advanced'), nl,
     write('courseRating: low'), nl,
@@ -252,7 +252,7 @@ course_description('The Finite Element Method for Problems in Physics') :-
     write('skills: dimension (vector space)  formulation  computational fluid dynamics  numerical analysis  fluid mechanics  Partial Differential Equations  euler\'s totient function  Differential Equations  computational physics  Basis Function physical-science-and-engineering mechanical-engineering'), nl.
 course_description('AWS Elastic BeanstalkDeploy a Python(Flask) Web Application') :-
     write('course_name: AWS Elastic BeanstalkDeploy a Python(Flask) Web Application'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -486,7 +486,7 @@ course_description('Developing AI Applications on Azure') :-
     write('skills: Machine Learning  web service  workspace  Training  Computer Programming  Microsoft Azure  Python Programming  Computer Vision  Human Learning  application programming interfaces data-science machine-learning'), nl.
 course_description('Introduction to Python') :-
     write('course_name: Introduction to Python'), nl,
-    write('languages: java, python, c'), nl,
+    write('languages: java, c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -549,7 +549,7 @@ course_description('Serve Scikit-Learn Models for Deployment with BentoML') :-
     write('skills: project mine  Logistic Regression  modeling  statistical classification  Scikit-Learn  Regression  supply chain  Document Classification  Regression Analysis  project data-science machine-learning'), nl.
 course_description('Use Commands and Create a Remote Git Repository') :-
     write('course_name: Use Commands and Create a Remote Git Repository'), nl,
-    write('languages: php, python, c'), nl,
+    write('languages: c, python, php'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -576,7 +576,7 @@ course_description('Principles of Secure Coding') :-
     write('skills: c programming  c++  formal methods  bug bounty program  principle  spring framework  a/rose  defensive programming  penetration test  Computer Programming computer-science computer-security-and-networks'), nl.
 course_description('Building Web Applications in Django') :-
     write('course_name: Building Web Applications in Django'), nl,
-    write('languages: ruby, python, php, javascript'), nl,
+    write('languages: ruby, python, javascript, php'), nl,
     write('university: University of Michigan'), nl,
     write('difficultyLevel: Unknown'), nl,
     write('courseRating: low'), nl,
@@ -639,7 +639,7 @@ course_description('Introduction to Big Data') :-
     write('skills: analysis  mapreduce  Big Data Products  Apache Hadoop  Big Data  analytics  Apache  cloudera  Data Analysis  Big Data Analytics data-science data-analysis'), nl.
 course_description('Natural Language Processing with Probabilistic Models') :-
     write('course_name: Natural Language Processing with Probabilistic Models'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: DeepLearningAI'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -846,7 +846,7 @@ course_description('Analyze Text Data with Yellowbrick') :-
     write('skills: text corpus  Data Analysis  Machine Learning  text mining  documents  Topic Model  Data Mining  data clustering algorithms  Python Programming  project data-science machine-learning'), nl.
 course_description('Class Creation in Object Oriented Python') :-
     write('course_name: Class Creation in Object Oriented Python'), nl,
-    write('languages: objectivec, python, c'), nl,
+    write('languages: c, python, objectivec'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -927,7 +927,7 @@ course_description('Visual Machine Learning with Yellowbrick') :-
     write('skills: Algorithm Selection  Algorithms  randomness  hyperparameter  opaque pointer  Random Forest  Regression  Machine Learning  Python Programming  linearity data-science machine-learning'), nl.
 course_description('Create a Memory Puzzle Game in Python Using Pygame') :-
     write('course_name: Create a Memory Puzzle Game in Python Using Pygame'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -1188,7 +1188,7 @@ course_description('RESTful API with HTTP and JavaScript') :-
     write('skills: representational state transfer  hypertext transfer protocol  json  interfaces  project  web page  Javascript  web  application programming interfaces  web api computer-science software-development'), nl.
 course_description('Parallel Programming in Java') :-
     write('course_name: Parallel Programming in Java'), nl,
-    write('languages: cpp, java, c'), nl,
+    write('languages: java, cpp, c'), nl,
     write('university: Rice University'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,
@@ -1206,7 +1206,7 @@ course_description('Object-Oriented Data Structures in C++') :-
     write('skills: Data Structures  memory management  crt0  memory  Algorithms  pointer (computer programming)  Computer Programming  computer program  Leadership and Management  object-oriented programming computer-science software-development'), nl.
 course_description('Modern Robotics Course 4  Robot Motion Planning and Control') :-
     write('course_name: Modern Robotics Course 4  Robot Motion Planning and Control'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Northwestern University'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,
@@ -1458,7 +1458,7 @@ course_description('Health Concepts in Chinese Medicine') :-
     write('skills: vitamins  herbalism  antioxidant  metabolism  Chinese Medicine  chinese language  blood  immune system  medicine  vitamin life-sciences patient-care'), nl.
 course_description('Create your first test automation script - Selenium and C#') :-
     write('course_name: Create your first test automation script - Selenium and C#'), nl,
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: Unknown'), nl,
@@ -1494,7 +1494,7 @@ course_description('Simple Recurrent Neural Network with Keras') :-
     write('skills: Artificial Neural Networks  Python Programming  inference  Keras  recurrent neural network  front and back ends  Tensorflow  Mathematics  Machine Learning  Average data-science machine-learning'), nl.
 course_description('Modern Robotics Course 5  Robot Manipulation and Wheeled Mobile Robots') :-
     write('course_name: Modern Robotics Course 5  Robot Manipulation and Wheeled Mobile Robots'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Northwestern University'), nl,
     write('difficultyLevel: advanced'), nl,
     write('courseRating: low'), nl,
@@ -1521,7 +1521,7 @@ course_description('Rapid Prototyping of Embedded Interface Designs') :-
     write('skills: java annotation  internet of things  rapid prototyping  user interface design  Computer Programming  voice user interface  signature  interaction design  Operating Systems  Product Development computer-science design-and-product'), nl.
 course_description('Multiplatform Mobile App Development with Web Technologies Ionic and Cordova') :-
     write('course_name: Multiplatform Mobile App Development with Web Technologies Ionic and Cordova'), nl,
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('university: The Hong Kong University of Science and Technology'), nl,
     write('difficultyLevel: advanced'), nl,
     write('courseRating: low'), nl,
@@ -1665,7 +1665,7 @@ course_description('Machine Learning Classification') :-
     write('skills: decision tree  Human Learning  Gradient  classification algorithms  stochastic  Algorithms  Regression  statistical classification  Machine Learning  gradient descent data-science machine-learning'), nl.
 course_description('Git + GitHub for Open Source Collaboration') :-
     write('course_name: Git + GitHub for Open Source Collaboration'), nl,
-    write('languages: php, java, c'), nl,
+    write('languages: java, c, php'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,
@@ -1755,7 +1755,7 @@ course_description('Perform Real-Time Object Detection with YOLOv3') :-
     write('skills: Computer Vision  digital image processing  object detection  modeling  Workstations  Machine Learning  command-line interface  Natural Language Processing  system u  Python Programming data-science machine-learning'), nl.
 course_description('Competitive Programmer\'s Core Skills') :-
     write('course_name: Competitive Programmer\'s Core Skills'), nl,
-    write('languages: java, python, c, ruby, javascript'), nl,
+    write('languages: python, java, ruby, c, javascript'), nl,
     write('university: Saint Petersburg State University'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,
@@ -1863,7 +1863,7 @@ course_description('Image Processing with Python') :-
     write('skills: global positioning system  opencv  medical imaging  image processing  project  Python Programming  photography  Video Editing  digital image processing  Computer Programming computer-science software-development'), nl.
 course_description('Django Features and Libraries') :-
     write('course_name: Django Features and Libraries'), nl,
-    write('languages: php, python, javascript'), nl,
+    write('languages: python, javascript, php'), nl,
     write('university: University of Michigan'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -1908,7 +1908,7 @@ course_description('Introduction to Programming and Animation with Alice') :-
     write('skills: storyboarding  euler\'s totient function  game programming  java desktop system  while loop  exercise  animation software  computer animation  Computer Programming  arrays computer-science software-development'), nl.
 course_description('Engineering Practices for Building Quality Software') :-
     write('course_name: Engineering Practices for Building Quality Software'), nl,
-    write('languages: javascript, java, python, c'), nl,
+    write('languages: java, c, python, javascript'), nl,
     write('university: University of Minnesota'), nl,
     write('difficultyLevel: Unknown'), nl,
     write('courseRating: low'), nl,
@@ -2088,7 +2088,7 @@ course_description('Anomaly Detection in Time Series Data with Keras') :-
     write('skills: Machine Learning  Plotly  Tensorflow  Deep Learning  front and back ends  Anomaly Detection  Long Short-Term Memory  Keras  Time Series  interactive media data-science machine-learning'), nl.
 course_description('The Fundamentals of Computing Capstone Exam') :-
     write('course_name: The Fundamentals of Computing Capstone Exam'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Rice University'), nl,
     write('difficultyLevel: advanced'), nl,
     write('courseRating: low'), nl,
@@ -2349,7 +2349,7 @@ course_description('Introduction to Architecting Smart IoT Devices') :-
     write('skills: modeling  purchasing  web  c process control  microprocessor  internet of things  simulink  evaluation  systems modeling language  market (economics) computer-science computer-security-and-networks'), nl.
 course_description('Multiplatform Mobile App Development with React Native') :-
     write('course_name: Multiplatform Mobile App Development with React Native'), nl,
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('university: The Hong Kong University of Science and Technology'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,
@@ -2502,7 +2502,7 @@ course_description('Databases and SQL for Data Science') :-
     write('skills: Computer Programming  Python Programming  Databases  ipython  SQL  Leadership and Management  ibm db2  Database Connection  Cloud Computing  relational database data-science data-analysis'), nl.
 course_description('Front-End Web UI Frameworks and Tools Bootstrap 4') :-
     write('course_name: Front-End Web UI Frameworks and Tools Bootstrap 4'), nl,
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('university: The Hong Kong University of Science and Technology'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,
@@ -2511,7 +2511,7 @@ course_description('Front-End Web UI Frameworks and Tools Bootstrap 4') :-
     write('skills: less (stylesheet language)  jquery  language  bootstrap (front-end framework)  Javascript  sass (stylesheet language)  web  github  Software As A Service  CSS computer-science mobile-and-web-development'), nl.
 course_description('Front-End Web UI Frameworks and Tools Bootstrap 4') :-
     write('course_name: Front-End Web UI Frameworks and Tools Bootstrap 4'), nl,
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('university: The Hong Kong University of Science and Technology'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,
@@ -2637,7 +2637,7 @@ course_description('Creative Thinking Techniques and Tools for Success') :-
     write('skills: scamper  Trigonometric Integral  triz  thought  Creativity  analysis  brainstorming  Critical Thinking  creativity techniques  Problem Solving personal-development personal-development'), nl.
 course_description('Natural Language Processing with Attention Models') :-
     write('course_name: Natural Language Processing with Attention Models'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: DeepLearningAI'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -2655,7 +2655,7 @@ course_description('Fashion E-Commerce in XD') :-
     write('skills: mathematical optimization  project mine  english language  high fidelity  php  E-Commerce  Data Analysis  Data Science  User Experience  extract computer-science design-and-product'), nl.
 course_description('Build a Python GUI with Tkinter') :-
     write('course_name: Build a Python GUI with Tkinter'), nl,
-    write('languages: java, python, c'), nl,
+    write('languages: java, c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -2844,7 +2844,7 @@ course_description('Building Scalable Java Microservices with Spring Boot and Sp
     write('skills: build operate transfer  publish subscribe pattern  spring framework  spring  microservices  Google Cloud Platform  Cloud Computing  Cloud Platforms  booting  Google App Engine computer-science software-development'), nl.
 course_description('Create Your First Game with Python') :-
     write('course_name: Create Your First Game with Python'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -2943,7 +2943,7 @@ course_description('Mitigating Security Vulnerabilities on Google Cloud Platform
     write('skills: Google Cloud Platform  denial-of-service attacks  vulnerability (computing)  Cloud Computing  Cloud Platforms  Software Security  uniform resource locator  cloud computing security  key (cryptography)  security information-technology cloud-computing'), nl.
 course_description('Practical Introduction to the Command Line') :-
     write('course_name: Practical Introduction to the Command Line'), nl,
-    write('languages: java, python, c'), nl,
+    write('languages: java, c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -3087,7 +3087,7 @@ course_description('Machine Translation') :-
     write('skills: machine translation  Artificial Neural Networks  Log-Linear Model  statistical machine translation  language model  neural machine translation  beam search  translation  Natural Language Processing  n-gram data-science machine-learning'), nl.
 course_description('Functional Program Design in Scala') :-
     write('course_name: Functional Program Design in Scala'), nl,
-    write('languages: java, python, c, ruby, javascript'), nl,
+    write('languages: python, java, ruby, c, javascript'), nl,
     write('university: cole Polytechnique Fdrale de Lausanne'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -3195,7 +3195,7 @@ course_description('Algorithms Part II') :-
     write('skills: search algorithm  sorting  Java Programming  data compression  Data Structures  java (software platform)  Computer Programming  radix sort  Algorithms  graphs computer-science algorithms'), nl.
 course_description('Geo-Visualization in Python') :-
     write('course_name: Geo-Visualization in Python'), nl,
-    write('languages: php, python'), nl,
+    write('languages: python, php'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -3816,7 +3816,7 @@ course_description('Algorithmic Thinking (Part 1)') :-
     write('skills: Computer Science  connected component (graph theory)  graphs  Mathematics  Python Programming  breadth-first search  algorithmics  Computer Programming  Algorithms  pseudocode computer-science software-development'), nl.
 course_description('Logistic Regression with Python and Numpy') :-
     write('course_name: Logistic Regression with Python and Numpy'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -3879,7 +3879,7 @@ course_description('RPA Lifecycle Deployment and Maintenance') :-
     write('skills: java annotation  automation anywhere  user interface  interfaces  maintenance  euler\'s totient function  upload  running  schedule  Leadership and Management computer-science software-development'), nl.
 course_description('VLSI CAD Part II Layout') :-
     write('course_name: VLSI CAD Part II Layout'), nl,
-    write('languages: java, python, c'), nl,
+    write('languages: java, c, python'), nl,
     write('university: University of Illinois at Urbana-Champaign'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,
@@ -3924,7 +3924,7 @@ course_description('Building AI Applications with Watson APIs') :-
     write('skills: weak ai  e-nable  Python Programming  application programming interfaces  Cloud Computing  extract  Computer Programming  Average  Machine Learning  enabling data-science machine-learning'), nl.
 course_description('Using JavaScript JQuery and JSON in Django') :-
     write('course_name: Using JavaScript JQuery and JSON in Django'), nl,
-    write('languages: php, python, javascript'), nl,
+    write('languages: python, javascript, php'), nl,
     write('university: University of Michigan'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -4176,7 +4176,7 @@ course_description('Developing Android Apps with App Inventor') :-
     write('skills: user interface  Android Development  viewer  app inventor for android  Application Development  java annotation  Computer Programming  web  Mobile Development  Google Maps computer-science mobile-and-web-development'), nl.
 course_description('Introduction to Computer Programming') :-
     write('course_name: Introduction to Computer Programming'), nl,
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('university: University of London'), nl,
     write('difficultyLevel: advanced'), nl,
     write('courseRating: low'), nl,
@@ -4248,7 +4248,7 @@ course_description('Lesson | Get Ready for the Interview') :-
     write('skills: online learning community  language  interview  Culture  japanese language  Deep Learning  c++  online interview  Language Learning  english language language-learning learning-english'), nl.
 course_description('System Validation (3) Requirements by modal formulas') :-
     write('course_name: System Validation (3) Requirements by modal formulas'), nl,
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('university: EIT Digital'), nl,
     write('difficultyLevel: advanced'), nl,
     write('courseRating: low'), nl,
@@ -4329,7 +4329,7 @@ course_description('Java Programming Solving Problems with Software') :-
     write('skills: java (software platform)  syntax  java syntax  software  Problem Solving  jpeg  Computer Programming  Algorithms  language  Java Programming computer-science software-development'), nl.
 course_description('Learn Object Oriented Programming With C++') :-
     write('course_name: Learn Object Oriented Programming With C++'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: advanced'), nl,
     write('courseRating: low'), nl,
@@ -4374,7 +4374,7 @@ course_description('Introduction to Reinforcement Learning in Python') :-
     write('skills: Computer Programming  project  Experiment  Reinforcement Learning  reinforcement  Python Programming  Algorithms  Integral  supervision  Machine Learning data-science machine-learning'), nl.
 course_description('Multiplatform Mobile App Development with NativeScript') :-
     write('course_name: Multiplatform Mobile App Development with NativeScript'), nl,
-    write('languages: javascript, c'), nl,
+    write('languages: c, javascript'), nl,
     write('university: The Hong Kong University of Science and Technology'), nl,
     write('difficultyLevel: advanced'), nl,
     write('courseRating: low'), nl,
@@ -4788,7 +4788,7 @@ course_description('Deep Learning Inference with Azure ML Studio') :-
     write('skills: web service  inference  Deep Learning  web application  Experiment  interfaces  Machine Learning  Network Model  web  Python Programming data-science machine-learning'), nl.
 course_description('Analyzing Video with OpenCV and NumPy') :-
     write('course_name: Analyzing Video with OpenCV and NumPy'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: advanced'), nl,
     write('courseRating: low'), nl,
@@ -4851,7 +4851,7 @@ course_description('Discrete Math and Analyzing Social Graphs') :-
     write('skills: categorization  Discrete Mathematics  Mathematics  graphs  probability  randomness  Graph Theory  probability theory  Combinatorics  experiment (probability theory) math-and-logic math-and-logic'), nl.
 course_description('Data Visualization with Python') :-
     write('course_name: Data Visualization with Python'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -5004,7 +5004,7 @@ course_description('Algorithms Part I') :-
     write('skills: Data Structures  Java Programming  search tree  java (software platform)  sorting algorithm  algorithmics  Algorithms  Computer Programming  sorting  priority queue computer-science algorithms'), nl.
 course_description('Build local development environments using Docker containers') :-
     write('course_name: Build local development environments using Docker containers'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -5031,7 +5031,7 @@ course_description('Machine Learning Rapid Prototyping with IBM Watson Studio') 
     write('skills: software prototyping  virtual prototyping  ansys  Model Optimization  Machine Learning  pido  rapid prototyping  evosuite  testbed  manual testing data-science machine-learning'), nl.
 course_description('Getting Started with Go') :-
     write('course_name: Getting Started with Go'), nl,
-    write('languages: java, python, c'), nl,
+    write('languages: java, c, python'), nl,
     write('university: University of California Irvine'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,
@@ -5175,7 +5175,7 @@ course_description('Building Similarity Based Recommendation System') :-
     write('skills: matrices  Collaboration  interact  Python Programming  euler\'s totient function  project  Data Analysis  E-Commerce  recommender systems  project mine data-science probability-and-statistics'), nl.
 course_description('Natural Language Processing with Classification and Vector Spaces') :-
     write('course_name: Natural Language Processing with Classification and Vector Spaces'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: DeepLearningAI'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -5283,7 +5283,7 @@ course_description('Java Programming Solving Problems with Software') :-
     write('skills: java (software platform)  syntax  java syntax  software  Problem Solving  jpeg  Computer Programming  Algorithms  language  Java Programming computer-science software-development'), nl.
 course_description('How to Make Image Editing Selections in GIMP') :-
     write('course_name: How to Make Image Editing Selections in GIMP'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -5544,7 +5544,7 @@ course_description('Kotlin for Java Developers') :-
     write('skills: jakobson\'s functions of language  standard library  kotlin (programming language)  interoperability  Computer Programming  euler\'s totient function  inline function  functional programming  java (software platform)  language computer-science software-development'), nl.
 course_description('VLSI CAD Part I Logic') :-
     write('course_name: VLSI CAD Part I Logic'), nl,
-    write('languages: java, python, c'), nl,
+    write('languages: java, c, python'), nl,
     write('university: University of Illinois at Urbana-Champaign'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,
@@ -5616,7 +5616,7 @@ course_description('Build a Data Science Web App with Streamlit and Python') :-
     write('skills: project  python libraries  web  Python Programming  html  Web Development  Application Design  Computer Programming  Machine Learning  web application data-science machine-learning'), nl.
 course_description('Testing and Debugging Python') :-
     write('course_name: Testing and Debugging Python'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -5643,7 +5643,7 @@ course_description('Foundations of Data Science K-Means Clustering in Python') :
     write('skills: unsupervised learning  data clustering algorithms  Computer Programming  ipython  Machine Learning  k-means clustering  graphs  Numpy  cluster analysis  Python Programming data-science machine-learning'), nl.
 course_description('Functional Programming Principles in Scala') :-
     write('course_name: Functional Programming Principles in Scala'), nl,
-    write('languages: java, python, c, ruby, javascript'), nl,
+    write('languages: python, java, ruby, c, javascript'), nl,
     write('university: cole Polytechnique Fdrale de Lausanne'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -5670,7 +5670,7 @@ course_description('Toledo Deciphering Secrets of Medieval Spain') :-
     write('skills: scholar  Culture  history  conquesting  Poetry Writing  r&d management  cleanliness  choice  blood  decipherment arts-and-humanities history'), nl.
 course_description('Perform Feature Analysis with Yellowbrick') :-
     write('course_name: Perform Feature Analysis with Yellowbrick'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -5805,7 +5805,7 @@ course_description('iOS App Development Basics') :-
     write('skills: interfaces  Mobile Development  java annotation  xcode  interface builder  user interface  application programming interfaces  iOS Development  Application Design  Swift Programming computer-science mobile-and-web-development'), nl.
 course_description('Big Data Analysis with Scala and Spark') :-
     write('course_name: Big Data Analysis with Scala and Spark'), nl,
-    write('languages: java, python, c, ruby, javascript'), nl,
+    write('languages: python, java, ruby, c, javascript'), nl,
     write('university: cole Polytechnique Fdrale de Lausanne'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -5976,7 +5976,7 @@ course_description('Fundamentals of Machine Learning in Finance') :-
     write('skills: mathematical finance  optimal control  Machine Learning  Reinforcement Learning  Estimation  Risk  t-Distributed Stochastic Neighbor Embedding  latent variable  stock  Finance data-science machine-learning'), nl.
 course_description('Python Dynamic HTML Web Server') :-
     write('course_name: Python Dynamic HTML Web Server'), nl,
-    write('languages: php, java, python, c'), nl,
+    write('languages: java, c, python, php'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -6174,7 +6174,7 @@ course_description('Image Compression with K-Means Clustering') :-
     write('skills: interactivity  k-means clustering  Python Programming  Scikit-Learn  Kalman Filter  Algorithms  image compression  widget toolkits  Machine Learning  data clustering algorithms data-science machine-learning'), nl.
 course_description('Neural Network from Scratch in TensorFlow') :-
     write('course_name: Neural Network from Scratch in TensorFlow'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -6237,7 +6237,7 @@ course_description('Mastering Programming with MATLAB') :-
     write('skills: object-oriented programming  modulo operation  ternary conditional operator  Electrical Engineering  Matlab  c++  Mechanical Engineering  null coalescing operator  autocad  Computer Programming computer-science software-development'), nl.
 course_description('Data Structures') :-
     write('course_name: Data Structures'), nl,
-    write('languages: java, python, c'), nl,
+    write('languages: java, c, python'), nl,
     write('university: University of California San Diego'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,
@@ -6246,7 +6246,7 @@ course_description('Data Structures') :-
     write('skills: binary search algorithm  binary search tree  binary tree  stack (abstract data type)  hashing  Data Structures  priority queue  hash table  search tree  splay tree computer-science algorithms'), nl.
 course_description('Intermediate Object-Oriented Programming with Java') :-
     write('course_name: Intermediate Object-Oriented Programming with Java'), nl,
-    write('languages: javascript, java, c'), nl,
+    write('languages: java, c, javascript'), nl,
     write('university: Coursera Project Network'), nl,
     write('difficultyLevel: beginner'), nl,
     write('courseRating: low'), nl,
@@ -6444,7 +6444,7 @@ course_description('Applied Data Science Capstone') :-
     write('skills: Algorithms  data clustering algorithms  web  analysis  Python Programming  cluster analysis  Computer Programming  Data Analysis  Data Visualization  Machine Learning data-science data-analysis'), nl.
 course_description('Modern Robotics Course 1  Foundations of Robot Motion') :-
     write('course_name: Modern Robotics Course 1  Foundations of Robot Motion'), nl,
-    write('languages: python, c'), nl,
+    write('languages: c, python'), nl,
     write('university: Northwestern University'), nl,
     write('difficultyLevel: intermediate'), nl,
     write('courseRating: low'), nl,

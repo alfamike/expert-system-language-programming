@@ -4,10 +4,10 @@ course('Programming Languages Part A', 'c', 'intermediate','low').
 course('Business Russian Communication Part 3', 'c', 'intermediate','Unknown').
 course('Python Programming Essentials', 'python', 'beginner','low').
 course('Creating Dashboards and Storytelling with Tableau', 'javascript', 'advanced','low').
-course('Parallel programming', 'java', 'beginner','low').
 course('Parallel programming', 'python', 'beginner','low').
-course('Parallel programming', 'c', 'beginner','low').
+course('Parallel programming', 'java', 'beginner','low').
 course('Parallel programming', 'ruby', 'beginner','low').
+course('Parallel programming', 'c', 'beginner','low').
 course('Parallel programming', 'javascript', 'beginner','low').
 course('Real-time OCR and Text Detection with Tensorflow OpenCV and Tesseract', 'python', 'beginner','low').
 course('Foundations of Objective-C App Development', 'objectivec', 'beginner','low').
@@ -23,9 +23,9 @@ course('Control physics with C# in Unity', 'c', 'beginner','low').
 course('Voice Disorders What Patients and Professionals Need to Know', 'c', 'intermediate','low').
 course('Learn to Teach Java   Boolean Expressions If Statements and Iteration', 'java', 'advanced','Unknown').
 course('Build a Table Layout App in Android Studio', 'java', 'beginner','low').
-course('Networking and Security in iOS Applications', 'javascript', 'advanced','low').
 course('Networking and Security in iOS Applications', 'objectivec', 'advanced','low').
 course('Networking and Security in iOS Applications', 'c', 'advanced','low').
+course('Networking and Security in iOS Applications', 'javascript', 'advanced','low').
 course('Exception Handling in Python', 'python', 'beginner','low').
 course('Mathematics for Machine Learning Linear Algebra', 'python', 'beginner','low').
 course('Implementing SOLID Principles in C# with NET Core', 'java', 'intermediate','Unknown').
@@ -37,8 +37,8 @@ course('Using Python to Interact with the Operating System', 'python', 'advanced
 course('Securing and Integrating Components of your Application', 'java', 'beginner','low').
 course('Securing and Integrating Components of your Application', 'python', 'beginner','low').
 course('The Finite Element Method for Problems in Physics', 'c', 'beginner','low').
-course('AWS Elastic BeanstalkDeploy a Python(Flask) Web Application', 'python', 'beginner','low').
 course('AWS Elastic BeanstalkDeploy a Python(Flask) Web Application', 'c', 'beginner','low').
+course('AWS Elastic BeanstalkDeploy a Python(Flask) Web Application', 'python', 'beginner','low').
 course('Data Science in Stratified Healthcare and Precision Medicine', 'python', 'Unknown','low').
 course('Introduction to Programming with MATLAB', 'java', 'Unknown','low').
 course('Introduction to Programming with MATLAB', 'c', 'Unknown','low').
@@ -68,8 +68,8 @@ course('Hands-on Text Mining and Analytics', 'java', 'advanced','low').
 course('Statistical Mechanics Algorithms and Computations', 'python', 'advanced','low').
 course('Developing AI Applications on Azure', 'python', 'beginner','low').
 course('Introduction to Python', 'java', 'beginner','low').
-course('Introduction to Python', 'python', 'beginner','low').
 course('Introduction to Python', 'c', 'beginner','low').
+course('Introduction to Python', 'python', 'beginner','low').
 course('Encryption And Decryption Using C++', 'c', 'beginner','low').
 course('Android App Components - Services Local IPC and Content Providers', 'java', 'advanced','low').
 course('Python Data Structures', 'python', 'Unknown','low').
@@ -77,23 +77,23 @@ course('Data Processing Using Python', 'java', 'advanced','low').
 course('Data Processing Using Python', 'python', 'advanced','low').
 course('Applied Text Mining in Python', 'python', 'advanced','low').
 course('Serve Scikit-Learn Models for Deployment with BentoML', 'python', 'intermediate','Unknown').
-course('Use Commands and Create a Remote Git Repository', 'php', 'beginner','low').
-course('Use Commands and Create a Remote Git Repository', 'python', 'beginner','low').
 course('Use Commands and Create a Remote Git Repository', 'c', 'beginner','low').
+course('Use Commands and Create a Remote Git Repository', 'python', 'beginner','low').
+course('Use Commands and Create a Remote Git Repository', 'php', 'beginner','low').
 course('Command Line in Linux', 'java', 'beginner','low').
 course('Principles of Secure Coding', 'c', 'intermediate','low').
 course('Building Web Applications in Django', 'ruby', 'Unknown','low').
 course('Building Web Applications in Django', 'python', 'Unknown','low').
-course('Building Web Applications in Django', 'php', 'Unknown','low').
 course('Building Web Applications in Django', 'javascript', 'Unknown','low').
+course('Building Web Applications in Django', 'php', 'Unknown','low').
 course('Anatomy of the Chest Abdomen and Pelvis', 'c', 'beginner','low').
 course('A Complete Reinforcement Learning System (Capstone)', 'c', 'intermediate','low').
 course('Game Theory with Python', 'python', 'beginner','low').
 course('Data Science at Scale - Capstone Project', 'python', 'advanced','low').
 course('Functions Methods and Interfaces in Go', 'java', 'beginner','low').
 course('Introduction to Big Data', 'c', 'Unknown','low').
-course('Natural Language Processing with Probabilistic Models', 'python', 'beginner','low').
 course('Natural Language Processing with Probabilistic Models', 'c', 'beginner','low').
+course('Natural Language Processing with Probabilistic Models', 'python', 'beginner','low').
 course('Getting Started With Application Development', 'java', 'beginner','low').
 course('Getting Started With Application Development', 'python', 'beginner','low').
 course('Linux Tools for Developers', 'java', 'advanced','low').
@@ -117,9 +117,9 @@ course('Learn to Teach Java  ArrayLists and 2D Arrays', 'java', 'advanced','low'
 course('Python Project pillow tesseract and opencv', 'python', 'Unknown','low').
 course('Programming for Everybody (Getting Started with Python)', 'python', 'Unknown','low').
 course('Analyze Text Data with Yellowbrick', 'python', 'beginner','low').
-course('Class Creation in Object Oriented Python', 'objectivec', 'beginner','low').
-course('Class Creation in Object Oriented Python', 'python', 'beginner','low').
 course('Class Creation in Object Oriented Python', 'c', 'beginner','low').
+course('Class Creation in Object Oriented Python', 'python', 'beginner','low').
+course('Class Creation in Object Oriented Python', 'objectivec', 'beginner','low').
 course('Front-End JavaScript Frameworks Angular', 'javascript', 'advanced','low').
 course('TensorFlow for AI Get to Know Tensorflow', 'python', 'advanced','low').
 course('Create UI in Unity Part 1 - Screen Overlay Canvas', 'c', 'advanced','low').
@@ -128,8 +128,8 @@ course('Create Power-Ups and Obstacles with C# in Unity', 'c', 'beginner','low')
 course('Image Compression and Generation using Variational Autoencoders in Python', 'python', 'beginner','low').
 course('Optimize TensorFlow Models For Deployment with TensorRT', 'python', 'advanced','low').
 course('Visual Machine Learning with Yellowbrick', 'python', 'beginner','low').
-course('Create a Memory Puzzle Game in Python Using Pygame', 'python', 'beginner','low').
 course('Create a Memory Puzzle Game in Python Using Pygame', 'c', 'beginner','low').
+course('Create a Memory Puzzle Game in Python Using Pygame', 'python', 'beginner','low').
 course('Responsive Website Basics Code with HTML CSS and JavaScript', 'javascript', 'intermediate','low').
 course('Mathematical Thinking in Computer Science', 'python', 'intermediate','low').
 course('Automating Real-World Tasks with Python', 'python', 'advanced','low').
@@ -162,12 +162,12 @@ course('Python Basics Create a Guessing Number Game from Scratch', 'python', 'be
 course('Single Page Web Applications with AngularJS', 'javascript', 'advanced','low').
 course('Computational Neuroscience', 'python', 'intermediate','low').
 course('RESTful API with HTTP and JavaScript', 'javascript', 'beginner','low').
-course('Parallel Programming in Java', 'cpp', 'intermediate','low').
 course('Parallel Programming in Java', 'java', 'intermediate','low').
+course('Parallel Programming in Java', 'cpp', 'intermediate','low').
 course('Parallel Programming in Java', 'c', 'intermediate','low').
 course('Object-Oriented Data Structures in C++', 'c', 'beginner','low').
-course('Modern Robotics Course 4  Robot Motion Planning and Control', 'python', 'intermediate','low').
 course('Modern Robotics Course 4  Robot Motion Planning and Control', 'c', 'intermediate','low').
+course('Modern Robotics Course 4  Robot Motion Planning and Control', 'python', 'intermediate','low').
 course('DDoS Attacks and Defenses', 'php', 'intermediate','low').
 course('Transfer Learning for Food Classification', 'python', 'beginner','low').
 course('Software Architecture', 'java', 'advanced','low').
@@ -198,18 +198,18 @@ course('Learn to Teach Java  Writing Classes and Arrays', 'c', 'advanced','low')
 course('Plots (Graphics) for Data Science', 'python', 'beginner','low').
 course('Introduction to Natural Language Processing in Python', 'python', 'beginner','low').
 course('Health Concepts in Chinese Medicine', 'c', 'intermediate','low').
-course('Create your first test automation script - Selenium and C#', 'javascript', 'beginner','Unknown').
 course('Create your first test automation script - Selenium and C#', 'c', 'beginner','Unknown').
+course('Create your first test automation script - Selenium and C#', 'javascript', 'beginner','Unknown').
 course('Introduction to Advanced tomography', 'python', 'intermediate','low').
 course('Sequence Models for Time Series and Natural Language Processing', 'python', 'intermediate','low').
 course('Simple Recurrent Neural Network with Keras', 'python', 'advanced','low').
-course('Modern Robotics Course 5  Robot Manipulation and Wheeled Mobile Robots', 'python', 'advanced','low').
 course('Modern Robotics Course 5  Robot Manipulation and Wheeled Mobile Robots', 'c', 'advanced','low').
+course('Modern Robotics Course 5  Robot Manipulation and Wheeled Mobile Robots', 'python', 'advanced','low').
 course('Fundamentals of Network Communication', 'java', 'intermediate','low').
 course('Fundamentals of Network Communication', 'c', 'intermediate','low').
 course('Rapid Prototyping of Embedded Interface Designs', 'java', 'intermediate','Unknown').
-course('Multiplatform Mobile App Development with Web Technologies Ionic and Cordova', 'javascript', 'advanced','low').
 course('Multiplatform Mobile App Development with Web Technologies Ionic and Cordova', 'c', 'advanced','low').
+course('Multiplatform Mobile App Development with Web Technologies Ionic and Cordova', 'javascript', 'advanced','low').
 course('Build an App in Android Studio using Static Files', 'java', 'beginner','low').
 course('Rails with Active Record and Action Pack', 'ruby', 'beginner','low').
 course('Build Multilayer Perceptron Models with Keras', 'python', 'beginner','low').
@@ -225,9 +225,9 @@ course('Getting Started with Blazor WASM', 'python', 'beginner','low').
 course('Introduction to Pointers and Memory Management in C/C++', 'c', 'beginner','low').
 course('Enhancing Communication with Remind', 'c', 'beginner','low').
 course('Machine Learning Classification', 'python', 'beginner','low').
-course('Git + GitHub for Open Source Collaboration', 'php', 'intermediate','low').
 course('Git + GitHub for Open Source Collaboration', 'java', 'intermediate','low').
 course('Git + GitHub for Open Source Collaboration', 'c', 'intermediate','low').
+course('Git + GitHub for Open Source Collaboration', 'php', 'intermediate','low').
 course('Image Understanding with TensorFlow on GCP', 'python', 'advanced','low').
 course('Functional Programming in Scala Capstone', 'c', 'advanced','low').
 course('Delivery Problem', 'python', 'intermediate','low').
@@ -237,10 +237,10 @@ course('Health Systems Development A Focus on Health Service Delivery and Human 
 course('Using SAS Viya REST APIs with Python and R', 'python', 'advanced','low').
 course('Principles of Computing (Part 1)', 'python', 'beginner','low').
 course('Perform Real-Time Object Detection with YOLOv3', 'python', 'Unknown','low').
-course('Competitive Programmer\'s Core Skills', 'java', 'intermediate','low').
 course('Competitive Programmer\'s Core Skills', 'python', 'intermediate','low').
-course('Competitive Programmer\'s Core Skills', 'c', 'intermediate','low').
+course('Competitive Programmer\'s Core Skills', 'java', 'intermediate','low').
 course('Competitive Programmer\'s Core Skills', 'ruby', 'intermediate','low').
+course('Competitive Programmer\'s Core Skills', 'c', 'intermediate','low').
 course('Competitive Programmer\'s Core Skills', 'javascript', 'intermediate','low').
 course('Genomics Decoding the Universal Language of Life', 'ruby', 'intermediate','low').
 course('Create Your First Multithreaded Application in Java', 'java', 'beginner','low').
@@ -253,17 +253,17 @@ course('Neural Networks and Deep Learning', 'python', 'beginner','low').
 course('Cloud Computing Concepts Part 2', 'c', 'advanced','low').
 course('Crash Course on Python', 'python', 'Unknown','low').
 course('Image Processing with Python', 'python', 'beginner','low').
-course('Django Features and Libraries', 'php', 'beginner','low').
 course('Django Features and Libraries', 'python', 'beginner','low').
 course('Django Features and Libraries', 'javascript', 'beginner','low').
+course('Django Features and Libraries', 'php', 'beginner','low').
 course('COVID19 Data Visualization Using Python', 'python', 'beginner','low').
 course('Using Git for Distributed Development', 'php', 'advanced','low').
 course('Service-Oriented Architecture', 'java', 'advanced','low').
 course('Introduction to Programming and Animation with Alice', 'java', 'advanced','low').
-course('Engineering Practices for Building Quality Software', 'javascript', 'Unknown','low').
 course('Engineering Practices for Building Quality Software', 'java', 'Unknown','low').
-course('Engineering Practices for Building Quality Software', 'python', 'Unknown','low').
 course('Engineering Practices for Building Quality Software', 'c', 'Unknown','low').
+course('Engineering Practices for Building Quality Software', 'python', 'Unknown','low').
+course('Engineering Practices for Building Quality Software', 'javascript', 'Unknown','low').
 course('Game Design and Development Capstone', 'c', 'advanced','low').
 course('Databases and SQL for Data Science', 'python', 'Unknown','low').
 course('Software Security', 'java', 'advanced','low').
@@ -287,8 +287,8 @@ course('Building AI Powered Chatbots Without Programming', 'python', 'beginner',
 course('Business English Final Project', 'c', 'advanced','low').
 course('On Premises Capacity Upgrade and Monitoring with Google Cloud\'s Apigee API Platform', 'java', 'Unknown','low').
 course('Anomaly Detection in Time Series Data with Keras', 'python', 'beginner','low').
-course('The Fundamentals of Computing Capstone Exam', 'python', 'advanced','low').
 course('The Fundamentals of Computing Capstone Exam', 'c', 'advanced','low').
+course('The Fundamentals of Computing Capstone Exam', 'python', 'advanced','low').
 course('Analyze Box Office Data with Plotly and Python', 'python', 'beginner','low').
 course('Symmetric Cryptography', 'ruby', 'advanced','low').
 course('Symmetric Cryptography', 'ruby', 'advanced','low').
@@ -318,8 +318,8 @@ course('Java Programming Build a Recommendation System', 'javascript', 'beginner
 course('Setting Up a Digital Library with EPIC', 'python', 'beginner','low').
 course('Data Visualization with Python', 'python', 'beginner','low').
 course('Introduction to Architecting Smart IoT Devices', 'c', 'advanced','low').
-course('Multiplatform Mobile App Development with React Native', 'javascript', 'intermediate','low').
 course('Multiplatform Mobile App Development with React Native', 'c', 'intermediate','low').
+course('Multiplatform Mobile App Development with React Native', 'javascript', 'intermediate','low').
 course('Digital Signal Processing 1 Basic Concepts and Algorithms', 'python', 'intermediate','low').
 course('Information Visualization Programming with D3js', 'javascript', 'advanced','low').
 course('Basic Artificial Neural Networks in Python', 'python', 'beginner','low').
@@ -336,10 +336,10 @@ course('Create Your First Application with Java Using Networking', 'java', 'begi
 course('Java Decision Programming', 'java', 'beginner','low').
 course('Databases and SQL for Data Science', 'python', 'Unknown','low').
 course('Databases and SQL for Data Science', 'python', 'Unknown','low').
-course('Front-End Web UI Frameworks and Tools Bootstrap 4', 'javascript', 'intermediate','low').
 course('Front-End Web UI Frameworks and Tools Bootstrap 4', 'c', 'intermediate','low').
 course('Front-End Web UI Frameworks and Tools Bootstrap 4', 'javascript', 'intermediate','low').
 course('Front-End Web UI Frameworks and Tools Bootstrap 4', 'c', 'intermediate','low').
+course('Front-End Web UI Frameworks and Tools Bootstrap 4', 'javascript', 'intermediate','low').
 course('C# Programming for Unity Game Development Capstone Project', 'c', 'advanced','low').
 course('Advanced R Programming', 'java', 'advanced','low').
 course('C++ For C Programmers Part B', 'c', 'intermediate','low').
@@ -356,12 +356,12 @@ course('Create an FPS Weapon in Unity (Part 3 -Damage Effects)', 'java', 'advanc
 course('Create an FPS Weapon in Unity (Part 3 -Damage Effects)', 'c', 'advanced','Unknown').
 course('Interacting with the System and Managing Memory', 'c', 'advanced','low').
 course('Creative Thinking Techniques and Tools for Success', 'c', 'beginner','low').
-course('Natural Language Processing with Attention Models', 'python', 'beginner','low').
 course('Natural Language Processing with Attention Models', 'c', 'beginner','low').
+course('Natural Language Processing with Attention Models', 'python', 'beginner','low').
 course('Fashion E-Commerce in XD', 'php', 'beginner','low').
 course('Build a Python GUI with Tkinter', 'java', 'beginner','low').
-course('Build a Python GUI with Tkinter', 'python', 'beginner','low').
 course('Build a Python GUI with Tkinter', 'c', 'beginner','low').
+course('Build a Python GUI with Tkinter', 'python', 'beginner','low').
 course('Machine Learning with H2O Flow', 'java', 'beginner','low').
 course('Machine Learning with H2O Flow', 'python', 'beginner','low').
 course('Design Computing 3D Modeling in Rhinoceros with Python/Rhinoscript', 'python', 'advanced','low').
@@ -385,8 +385,8 @@ course('Create a Python Application using PyMongo and MongoDB Database', 'python
 course('Understanding and Visualizing Data with Python', 'python', 'advanced','low').
 course('International Entertainment and Sports Marketing', 'c', 'intermediate','low').
 course('Building Scalable Java Microservices with Spring Boot and Spring Cloud', 'java', 'beginner','low').
-course('Create Your First Game with Python', 'python', 'beginner','low').
 course('Create Your First Game with Python', 'c', 'beginner','low').
+course('Create Your First Game with Python', 'python', 'beginner','low').
 course('Big Data Analysis Hive Spark SQL DataFrames and GraphFrames', 'python', 'advanced','low').
 course('English for Teaching Purposes', 'c', 'beginner','low').
 course('Siamese Network with Triplet Loss in Keras', 'python', 'advanced','low').
@@ -399,8 +399,8 @@ course('Java Arrays and Loops', 'java', 'intermediate','Unknown').
 course('Mitigating Security Vulnerabilities on Google Cloud Platform', 'python', 'beginner','low').
 course('Mitigating Security Vulnerabilities on Google Cloud Platform', 'javascript', 'beginner','low').
 course('Practical Introduction to the Command Line', 'java', 'beginner','low').
-course('Practical Introduction to the Command Line', 'python', 'beginner','low').
 course('Practical Introduction to the Command Line', 'c', 'beginner','low').
+course('Practical Introduction to the Command Line', 'python', 'beginner','low').
 course('Image Noise Reduction with Auto-encoders using TensorFlow', 'python', 'beginner','low').
 course('Regression Modeling Fundamentals', 'c', 'intermediate','Unknown').
 course('Dimensionality Reduction using an Autoencoder in Python', 'python', 'beginner','low').
@@ -420,10 +420,10 @@ course('Facial Expression Recognition with Keras', 'python', 'beginner','low').
 course('NLP Twitter Sentiment Analysis', 'python', 'beginner','low').
 course('Introduction to Engineering Mechanics', 'c', 'intermediate','low').
 course('Machine Translation', 'php', 'advanced','low').
-course('Functional Program Design in Scala', 'java', 'beginner','low').
 course('Functional Program Design in Scala', 'python', 'beginner','low').
-course('Functional Program Design in Scala', 'c', 'beginner','low').
+course('Functional Program Design in Scala', 'java', 'beginner','low').
 course('Functional Program Design in Scala', 'ruby', 'beginner','low').
+course('Functional Program Design in Scala', 'c', 'beginner','low').
 course('Functional Program Design in Scala', 'javascript', 'beginner','low').
 course('Architecting Smart IoT Devices', 'c', 'advanced','low').
 course('Create a Visual Schedule with Google Slides', 'c', 'Unknown','Unknown').
@@ -436,8 +436,8 @@ course('Natural Language Processing with Sequence Models', 'c', 'beginner','low'
 course('Advanced Portfolio Construction and Analysis with Python', 'python', 'advanced','low').
 course('Exploratory Data Analysis with Seaborn', 'python', 'beginner','low').
 course('Algorithms Part II', 'java', 'intermediate','low').
-course('Geo-Visualization in Python', 'php', 'beginner','low').
 course('Geo-Visualization in Python', 'python', 'beginner','low').
+course('Geo-Visualization in Python', 'php', 'beginner','low').
 course('Python and Machine-Learning for Asset Management with Alternative Data Sets', 'python', 'advanced','low').
 course('Machine Learning Pipelines with Azure ML Studio', 'python', 'beginner','low').
 course('Python Data Structures', 'python', 'beginner','low').
@@ -511,8 +511,8 @@ course('Web Scraping with Python + BeautifulSoup', 'python', 'beginner','low').
 course('Process Personal Details using Methods in Java', 'java', 'beginner','low').
 course('Process Personal Details using Methods in Java', 'c', 'beginner','low').
 course('Algorithmic Thinking (Part 1)', 'python', 'advanced','low').
-course('Logistic Regression with Python and Numpy', 'python', 'beginner','low').
 course('Logistic Regression with Python and Numpy', 'c', 'beginner','low').
+course('Logistic Regression with Python and Numpy', 'python', 'beginner','low').
 course('Version Control of a Python Project using Git', 'python', 'intermediate','low').
 course('Customer Journey Prototyping in XD', 'php', 'beginner','low').
 course('Concept Art for Video Games', 'ruby', 'intermediate','low').
@@ -520,15 +520,15 @@ course('Custom Prediction Routine on Google AI Platform', 'python', 'beginner','
 course('Introduction to Software Testing', 'java', 'advanced','low').
 course('RPA Lifecycle Deployment and Maintenance', 'java', 'advanced','low').
 course('VLSI CAD Part II Layout', 'java', 'intermediate','low').
-course('VLSI CAD Part II Layout', 'python', 'intermediate','low').
 course('VLSI CAD Part II Layout', 'c', 'intermediate','low').
+course('VLSI CAD Part II Layout', 'python', 'intermediate','low').
 course('Simple Retrieval Queries in MySQL Workbench', 'java', 'beginner','low').
 course('Build a Full Website using WordPress', 'c', 'beginner','low').
 course('AI Workflow Enterprise Model Deployment', 'python', 'advanced','low').
 course('Building AI Applications with Watson APIs', 'python', 'beginner','low').
-course('Using JavaScript JQuery and JSON in Django', 'php', 'beginner','low').
 course('Using JavaScript JQuery and JSON in Django', 'python', 'beginner','low').
 course('Using JavaScript JQuery and JSON in Django', 'javascript', 'beginner','low').
+course('Using JavaScript JQuery and JSON in Django', 'php', 'beginner','low').
 course('UX and Interface Design for Embedded Systems', 'java', 'advanced','Unknown').
 course('Using Machine Learning in Trading and Finance', 'python', 'intermediate','low').
 course('Object-Oriented Design', 'java', 'advanced','low').
@@ -557,8 +557,8 @@ course('Systems Science and Obesity', 'c', 'intermediate','low').
 course('Modern Robotics Course 6  Capstone Project Mobile Manipulation', 'python', 'advanced','low').
 course('Introduction to Ordinary Differential Equations', 'c', 'beginner','low').
 course('Developing Android Apps with App Inventor', 'java', 'advanced','low').
-course('Introduction to Computer Programming', 'javascript', 'advanced','low').
 course('Introduction to Computer Programming', 'c', 'advanced','low').
+course('Introduction to Computer Programming', 'javascript', 'advanced','low').
 course('Become a JavaScript Pro with these 7 Skills', 'javascript', 'intermediate','low').
 course('App Deployment Debugging and Performance', 'java', 'Unknown','low').
 course('App Deployment Debugging and Performance', 'python', 'Unknown','low').
@@ -568,8 +568,8 @@ course('Create your first Java project using jGRASP', 'java', 'beginner','low').
 course('Create your first Java project using jGRASP', 'javascript', 'beginner','low').
 course('Java Programming Principles of Software Design', 'java', 'Unknown','low').
 course('Lesson | Get Ready for the Interview', 'c', 'Unknown','low').
-course('System Validation (3) Requirements by modal formulas', 'javascript', 'advanced','low').
 course('System Validation (3) Requirements by modal formulas', 'c', 'advanced','low').
+course('System Validation (3) Requirements by modal formulas', 'javascript', 'advanced','low').
 course('Concurrent Programming in Java', 'java', 'intermediate','low').
 course('Building Machine Learning Pipelines in PySpark MLlib', 'python', 'beginner','low').
 course('Python Data Analysis', 'python', 'advanced','low').
@@ -578,14 +578,14 @@ course('How To Create a Website in a Weekend! (Project-Centered Course)', 'javas
 course('Cities are back in town  sociologa urbana para un mundo globalizado', 'c', 'beginner','low').
 course('Fitting Statistical Models to Data with Python', 'python', 'beginner','low').
 course('Java Programming Solving Problems with Software', 'java', 'Unknown','low').
-course('Learn Object Oriented Programming With C++', 'python', 'advanced','low').
 course('Learn Object Oriented Programming With C++', 'c', 'advanced','low').
+course('Learn Object Oriented Programming With C++', 'python', 'advanced','low').
 course('Exploratory Data Analysis With Python and Pandas', 'python', 'beginner','low').
 course('Data Visualization and Dashboards with Excel and Cognos', 'python', 'beginner','Unknown').
 course('Bitcoin and Cryptocurrency Technologies', 'java', 'beginner','low').
 course('Introduction to Reinforcement Learning in Python', 'python', 'beginner','low').
-course('Multiplatform Mobile App Development with NativeScript', 'javascript', 'advanced','low').
 course('Multiplatform Mobile App Development with NativeScript', 'c', 'advanced','low').
+course('Multiplatform Mobile App Development with NativeScript', 'javascript', 'advanced','low').
 course('Building Modern Python Applications on AWS', 'java', 'advanced','low').
 course('Building Modern Python Applications on AWS', 'python', 'advanced','low').
 course('Finding Hidden Messages in DNA (Bioinformatics I)', 'python', 'advanced','low').
@@ -634,8 +634,8 @@ course('Statistical Data Visualization in Python', 'python', 'advanced','low').
 course('Linear Regression with Python', 'python', 'beginner','low').
 course('Design Thinking and Predictive Analytics for Data Products', 'python', 'intermediate','low').
 course('Deep Learning Inference with Azure ML Studio', 'python', 'beginner','low').
-course('Analyzing Video with OpenCV and NumPy', 'python', 'advanced','low').
 course('Analyzing Video with OpenCV and NumPy', 'c', 'advanced','low').
+course('Analyzing Video with OpenCV and NumPy', 'python', 'advanced','low').
 course('Fundamentals of Parallelism on Intel Architecture', 'c', 'intermediate','low').
 course('Security Best Practices in Google Cloud', 'python', 'beginner','low').
 course('Security Best Practices in Google Cloud', 'javascript', 'beginner','low').
@@ -643,8 +643,8 @@ course('Probability Theory Statistics and Exploratory Data Analysis', 'python', 
 course('Image Denoising Using AutoEncoders in Keras and Python', 'python', 'beginner','low').
 course('Creating a Personal Site with Gatsby', 'javascript', 'beginner','low').
 course('Discrete Math and Analyzing Social Graphs', 'python', 'beginner','low').
-course('Data Visualization with Python', 'python', 'beginner','low').
 course('Data Visualization with Python', 'c', 'beginner','low').
+course('Data Visualization with Python', 'python', 'beginner','low').
 course('Build a Guessing Game Application using C++', 'c', 'Unknown','Unknown').
 course('Generate Synthetic Images with DCGANs in Keras', 'python', 'beginner','low').
 course('Language Classification with Naive Bayes in Python', 'python', 'beginner','low').
@@ -661,13 +661,13 @@ course('Create basic behavior with C# in Unity', 'c', 'beginner','low').
 course('Getting Started with Cascading Style Sheet', 'javascript', 'beginner','low').
 course('C++ Decision Programming', 'c', 'Unknown','Unknown').
 course('Algorithms Part I', 'java', 'beginner','low').
-course('Build local development environments using Docker containers', 'python', 'beginner','low').
 course('Build local development environments using Docker containers', 'c', 'beginner','low').
+course('Build local development environments using Docker containers', 'python', 'beginner','low').
 course('Structured Query Language (SQL) using SAS', 'c', 'advanced','low').
 course('Machine Learning Rapid Prototyping with IBM Watson Studio', 'python', 'advanced','low').
 course('Getting Started with Go', 'java', 'intermediate','low').
-course('Getting Started with Go', 'python', 'intermediate','low').
 course('Getting Started with Go', 'c', 'intermediate','low').
+course('Getting Started with Go', 'python', 'intermediate','low').
 course('MOS Transistors', 'c', 'advanced','low').
 course('Clustering Geolocation Data Intelligently in Python', 'python', 'beginner','low').
 course('FPGA Softcore Processors and IP Acquisition', 'java', 'advanced','low').
@@ -685,8 +685,8 @@ course('Introduction to Meteorjs Development', 'javascript', 'advanced','low').
 course('Introduction to Java Programming Java Fundamental Concepts', 'java', 'beginner','low').
 course('Introduction to Java Programming Java Fundamental Concepts', 'python', 'beginner','low').
 course('Building Similarity Based Recommendation System', 'python', 'beginner','low').
-course('Natural Language Processing with Classification and Vector Spaces', 'python', 'beginner','low').
 course('Natural Language Processing with Classification and Vector Spaces', 'c', 'beginner','low').
+course('Natural Language Processing with Classification and Vector Spaces', 'python', 'beginner','low').
 course('SAS Macro Language', 'c', 'advanced','low').
 course('Draw and Style Custom Letters with Inkscape', 'c', 'beginner','low').
 course('Introduction to Deep Learning', 'python', 'advanced','low').
@@ -698,8 +698,8 @@ course('An Introduction to Interactive Programming in Python (Part 1)', 'python'
 course('Build an App in Android Studio using onTouch', 'java', 'beginner','low').
 course('Accounting Data Analytics with Python', 'python', 'advanced','low').
 course('Java Programming Solving Problems with Software', 'java', 'Unknown','low').
-course('How to Make Image Editing Selections in GIMP', 'python', 'beginner','low').
 course('How to Make Image Editing Selections in GIMP', 'c', 'beginner','low').
+course('How to Make Image Editing Selections in GIMP', 'python', 'beginner','low').
 course('Named Entity Recognition using LSTMs with Keras', 'python', 'beginner','low').
 course('Intermediate Pandas Python Library for Data Science', 'python', 'beginner','low').
 course('Internet of Things Setting Up Your DragonBoard Development Platform', 'java', 'advanced','low').
@@ -732,8 +732,8 @@ course('3D Interactions and Navigation', 'c', 'advanced','low').
 course('Kotlin for Java Developers', 'java', 'beginner','low').
 course('Kotlin for Java Developers', 'javascript', 'beginner','low').
 course('VLSI CAD Part I Logic', 'java', 'intermediate','low').
-course('VLSI CAD Part I Logic', 'python', 'intermediate','low').
 course('VLSI CAD Part I Logic', 'c', 'intermediate','low').
+course('VLSI CAD Part I Logic', 'python', 'intermediate','low').
 course('Applying Data Structures to Manipulate Cleansed UN Data', 'java', 'beginner','low').
 course('Unordered Data Structures', 'c', 'advanced','low').
 course('Using Efficient Sorting Algorithms in Java to Arrange Tax Data', 'java', 'beginner','low').
@@ -742,19 +742,19 @@ course('Implementing Hangman Game Using Basics of Python 3', 'python', 'beginner
 course('Introduction to JavaScript', 'php', 'beginner','low').
 course('Introduction to JavaScript', 'javascript', 'beginner','low').
 course('Build a Data Science Web App with Streamlit and Python', 'python', 'beginner','low').
-course('Testing and Debugging Python', 'python', 'beginner','low').
 course('Testing and Debugging Python', 'c', 'beginner','low').
+course('Testing and Debugging Python', 'python', 'beginner','low').
 course('Building Web Applications in PHP', 'php', 'beginner','low').
 course('Foundations of Data Science K-Means Clustering in Python', 'python', 'Unknown','low').
-course('Functional Programming Principles in Scala', 'java', 'beginner','low').
 course('Functional Programming Principles in Scala', 'python', 'beginner','low').
-course('Functional Programming Principles in Scala', 'c', 'beginner','low').
+course('Functional Programming Principles in Scala', 'java', 'beginner','low').
 course('Functional Programming Principles in Scala', 'ruby', 'beginner','low').
+course('Functional Programming Principles in Scala', 'c', 'beginner','low').
 course('Functional Programming Principles in Scala', 'javascript', 'beginner','low').
 course('Basic Cryptography and Programming with Crypto API', 'php', 'advanced','low').
 course('Toledo Deciphering Secrets of Medieval Spain', 'c', 'advanced','low').
-course('Perform Feature Analysis with Yellowbrick', 'python', 'beginner','low').
 course('Perform Feature Analysis with Yellowbrick', 'c', 'beginner','low').
+course('Perform Feature Analysis with Yellowbrick', 'python', 'beginner','low').
 course('Usable Security', 'java', 'beginner','low').
 course('Web Application Development Basic Concepts', 'ruby', 'advanced','low').
 course('Web Application Development Basic Concepts', 'javascript', 'advanced','low').
@@ -770,10 +770,10 @@ course('Introduction to Cataract Surgery', 'c', 'intermediate','low').
 course('Building Recommendation System Using MXNET on AWS Sagemaker', 'python', 'Unknown','Unknown').
 course('Create a Simple Project Timeline in Google Sheets', 'python', 'beginner','low').
 course('iOS App Development Basics', 'java', 'intermediate','low').
-course('Big Data Analysis with Scala and Spark', 'java', 'beginner','low').
 course('Big Data Analysis with Scala and Spark', 'python', 'beginner','low').
-course('Big Data Analysis with Scala and Spark', 'c', 'beginner','low').
+course('Big Data Analysis with Scala and Spark', 'java', 'beginner','low').
 course('Big Data Analysis with Scala and Spark', 'ruby', 'beginner','low').
+course('Big Data Analysis with Scala and Spark', 'c', 'beginner','low').
 course('Big Data Analysis with Scala and Spark', 'javascript', 'beginner','low').
 course('Build an App in Android Studio using Activities', 'java', 'beginner','low').
 course('TensorFlow Serving with Docker for Model Deployment', 'python', 'advanced','low').
@@ -794,10 +794,10 @@ course('Big Data Essentials HDFS MapReduce and Spark RDD', 'python', 'advanced',
 course('Bases of the law of obligations (The Russian Federation) Part 2', 'c', 'beginner','low').
 course('Learn Java and JavaFX by creating a Graphical Calculator', 'java', 'beginner','low').
 course('Fundamentals of Machine Learning in Finance', 'python', 'advanced','low').
-course('Python Dynamic HTML Web Server', 'php', 'beginner','low').
 course('Python Dynamic HTML Web Server', 'java', 'beginner','low').
-course('Python Dynamic HTML Web Server', 'python', 'beginner','low').
 course('Python Dynamic HTML Web Server', 'c', 'beginner','low').
+course('Python Dynamic HTML Web Server', 'python', 'beginner','low').
+course('Python Dynamic HTML Web Server', 'php', 'beginner','low').
 course('Machine Learning for All', 'python', 'Unknown','low').
 course('An Introduction to Interactive Programming in Python (Part 2)', 'python', 'advanced','low').
 course('Cloud Computing Concepts Part 1', 'c', 'advanced','low').
@@ -825,8 +825,8 @@ course('AWS Publish a NodeJS Website from Scratch', 'javascript', 'beginner','lo
 course('Cloud Computing Security', 'php', 'advanced','low').
 course('Create a Profile and Network on LinkedIn', 'c', 'beginner','low').
 course('Image Compression with K-Means Clustering', 'python', 'beginner','low').
-course('Neural Network from Scratch in TensorFlow', 'python', 'beginner','low').
 course('Neural Network from Scratch in TensorFlow', 'c', 'beginner','low').
+course('Neural Network from Scratch in TensorFlow', 'python', 'beginner','low').
 course('Image Data Augmentation with Keras', 'python', 'beginner','low').
 course('Computers Waves Simulations A Practical Introduction to Numerical Methods using Python', 'python', 'beginner','low').
 course('Blazor and JavaScript Interoperability', 'java', 'advanced','Unknown').
@@ -835,11 +835,11 @@ course('Front-End Web Development with React', 'javascript', 'intermediate','low
 course('Applied AI with DeepLearning', 'python', 'advanced','low').
 course('Mastering Programming with MATLAB', 'c', 'Unknown','low').
 course('Data Structures', 'java', 'intermediate','low').
-course('Data Structures', 'python', 'intermediate','low').
 course('Data Structures', 'c', 'intermediate','low').
-course('Intermediate Object-Oriented Programming with Java', 'javascript', 'beginner','low').
+course('Data Structures', 'python', 'intermediate','low').
 course('Intermediate Object-Oriented Programming with Java', 'java', 'beginner','low').
 course('Intermediate Object-Oriented Programming with Java', 'c', 'beginner','low').
+course('Intermediate Object-Oriented Programming with Java', 'javascript', 'beginner','low').
 course('Big-O Time Complexity in Python Code', 'python', 'beginner','low').
 course('Fake News Detection with Machine Learning', 'python', 'beginner','low').
 course('JavaScript Arithmetic Operators', 'javascript', 'advanced','Unknown').
@@ -862,8 +862,8 @@ course('Understanding Deepfakes with Keras', 'python', 'beginner','low').
 course('Taxation of Business Entities I Corporations', 'c', 'advanced','low').
 course('Applied Data Science Capstone', 'python', 'beginner','low').
 course('Applied Data Science Capstone', 'python', 'beginner','low').
-course('Modern Robotics Course 1  Foundations of Robot Motion', 'python', 'intermediate','low').
 course('Modern Robotics Course 1  Foundations of Robot Motion', 'c', 'intermediate','low').
+course('Modern Robotics Course 1  Foundations of Robot Motion', 'python', 'intermediate','low').
 course('Programming Languages Part C', 'ruby', 'advanced','low').
 course('Programming Languages Part C', 'c', 'advanced','low').
 course('Pixel Art for Video Games', 'java', 'intermediate','low').
