@@ -1,3 +1,4 @@
+% author: Alvaro Menacho Rodriguez
 main :-
 
   % Reset user answers at the beginning of the program
