@@ -25,11 +25,9 @@ recommender(Language) :-
   intro_courses,
   level(DifficultyLevel), nl,
   rating(CourseRatingLevel), nl,
-  % Consultar la base de conocimientos de cursos para encontrar cursos relacionados con el lenguaje
   findall(CourseName, course(CourseName, Language, DifficultyLevel, CourseRatingLevel), Courses),
-  % Presentar los cursos recomendados al usuario
-  present_courses(Courses).
-  % course_description(Course), nl.
+  present_courses_and_select(Courses).
+
 
 intro :-
   write('Which programming language should I learn first?'), nl,
@@ -61,21 +59,35 @@ process_agreement(Answer, Language) :-
 
 find_language(Language) :-
   language(Language), !.
-  
+
+% Predicado para presentar los cursos recomendados al usuario y permitir que seleccione uno
+present_courses_and_select(Courses) :-
+    present_courses(Courses), nl,
+    write('Selecciona el numero del curso que te interesa: '),
+    read(Index),
+    select_course_description(Courses, Index).
+
+% Predicado para seleccionar y mostrar la descripción del curso elegido por el usuario
+select_course_description(Courses, Index) :-
+    nth1(Index, Courses, Course),
+    course_description(Course), nl.
+
 % Predicado para presentar los cursos recomendados al usuario
 present_courses([]) :-
-    write('No se encontraron cursos recomendados para este lenguaje.'),
-    nl.
+    write('No se encontraron cursos recomendados para este lenguaje.'), nl,
+    reset_answers, !,
+    fail.
 present_courses(Courses) :-
     write('Cursos recomendados para este lenguaje:'), nl,
-    % Imprimir cada curso recomendado
-    print_courses(Courses).
+    % Imprimir cada curso recomendado con un número asociado
+    print_courses_with_numbers(Courses, 1).
 
-% Predicado auxiliar para imprimir la lista de cursos
-print_courses([]).
-print_courses([Course|Rest]) :-
-    write('- '), write(Course), nl,
-    print_courses(Rest).
+% Predicado auxiliar para imprimir la lista de cursos con números
+print_courses_with_numbers([], _).
+print_courses_with_numbers([Course|Rest], Number) :-
+    write(Number), write('. '), write(Course), nl,
+    NextNumber is Number + 1,
+    print_courses_with_numbers(Rest, NextNumber).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Funciones comunes
