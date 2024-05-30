@@ -1,4 +1,8 @@
 main :-
+
+  % Restablecer las respuestas del usuario al inicio del programa
+  reset_answers,
+
   % Expert System 1: Programming Languages ------------ %
   reconsult('kb.pl'),nl,
   reconsult('questions.pl'),nl,
@@ -8,7 +12,7 @@ main :-
   intro,
   reset_answers,
   find_language(Language),
-  describe(Language),
+  describe(Language), nl,
   ask_agreement(Language).
 
 recommender(Language) :-
@@ -20,10 +24,12 @@ recommender(Language) :-
   reconsult('assign_courses.pl'),
   intro_courses,
   level(DifficultyLevel), nl,
-  university(University), nl,
   rating(CourseRatingLevel), nl,
-  find_course(Course, Language, DifficultyLevel, University, CourseRatingLevel),
-  course_description(Course), nl.
+  % Consultar la base de conocimientos de cursos para encontrar cursos relacionados con el lenguaje
+  findall(CourseName, course(CourseName, Language, DifficultyLevel, CourseRatingLevel), Courses),
+  % Presentar los cursos recomendados al usuario
+  present_courses(Courses).
+  % course_description(Course), nl.
 
 intro :-
   write('Which programming language should I learn first?'), nl,
@@ -35,7 +41,7 @@ intro_courses :-
 
 ask_agreement(Language) :-
   nl,
-  write('Are you interested in learning '), write(Language), write('? (yes/no)'), nl,
+  write('Are you interested in learning '), write(Language), write('? (yes/no).'), nl,
   read(Answer),
   process_agreement(Answer, Language).
 
@@ -44,7 +50,7 @@ process_agreement(yes, Language) :-
   recommender(Language).
 
 process_agreement(no, Language) :-
-  write('Oh, that\'s unfortunate. Maybe another language?'),
+  write('Oh, that\'s unfortunate. Maybe another language?.'),
   reset_answers,
   main.
 
@@ -55,10 +61,22 @@ process_agreement(Answer, Language) :-
 
 find_language(Language) :-
   language(Language), !.
-
-find_course(Course, Language, DifficultyLevel, University, CourseRatingLevel) :-
-  course(Course, Language, DifficultyLevel, University, CourseRatingLevel).
   
+% Predicado para presentar los cursos recomendados al usuario
+present_courses([]) :-
+    write('No se encontraron cursos recomendados para este lenguaje.'),
+    nl.
+present_courses(Courses) :-
+    write('Cursos recomendados para este lenguaje:'), nl,
+    % Imprimir cada curso recomendado
+    print_courses(Courses).
+
+% Predicado auxiliar para imprimir la lista de cursos
+print_courses([]).
+print_courses([Course|Rest]) :-
+    write('- '), write(Course), nl,
+    print_courses(Rest).
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Funciones comunes
 

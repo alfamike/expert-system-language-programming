@@ -34,18 +34,18 @@ def convert_rating(rating):
     try:
         rating = float(rating)
         if 0 < rating <= 5:
-            return "Low"
+            return "low"
         elif 5 < rating <= 7:
-            return "Medium"
+            return "medium"
         elif 7 < rating <= 10:
-            return "High"
+            return "high"
     except ValueError:
         return "Unknown"
 
 def normalize_course_level(level):
     if level not in ['Beginner', 'Intermediate', 'Advanced']:
         return 'Unknown'
-    return level
+    return level.lower()
 
 df['Difficulty Level'] = df['Difficulty Level'].apply(normalize_course_level)
 df['Course Rating Level'] = df['Course Rating'].apply(convert_rating)
@@ -65,8 +65,7 @@ def generate_prolog_course(row):
     # Create a list to store Prolog facts for each language
     prolog_facts = []
     for lang in row['Language']:
-        prolog_fact = f"""course('{course_name}', '{lang}', '{row['Difficulty Level']}', '{university_name}','{row['Course Rating Level']}') :-
-        skills('{skills}')."""
+        prolog_fact = f"""course('{course_name}', '{lang}', '{row['Difficulty Level']}','{row['Course Rating Level']}')."""
         prolog_facts.append(prolog_fact)
     
     return prolog_facts
@@ -85,8 +84,8 @@ def generate_prolog_description(row):
     languages = ', '.join(row['Language'])
 
     return f"""course_description('{course_name}') :-
-    write('languages: {languages}'), nl,
     write('course_name: {course_name}'), nl,
+    write('languages: {languages}'), nl,
     write('university: {university_name}'), nl,
     write('difficultyLevel: {row['Difficulty Level']}'), nl,
     write('courseRating: {row['Course Rating Level']}'), nl,
